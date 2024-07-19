@@ -105,6 +105,31 @@ body {
     margin-left: 25%;
 }
 
+/* Đổi màu nền của dropdown list */
+.navbar .dropdown-menu {
+    background-color: #fe372f;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #fe372f;
+}
+/* Đổi màu nền của các mục trong dropdown khi di chuột vào */
+.navbar .dropdown-menu a:hover {
+    background-color: #ff952e; /* Đổi thành màu bạn muốn */
+}
+
+.navbar-collapse .btn {
+    border-color: #ff952e;
+    border-width: 2px;
+    color: #ff952e;
+}
+
+.navbar-collapse .btn:hover {
+    background-color: #ff952e;
+    color: #ffffff;
+}
+
+
 @media (max-width: 992px) {
     .navbar-collapse {
         background-color: #a7a9be;
