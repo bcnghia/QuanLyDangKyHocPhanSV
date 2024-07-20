@@ -43,11 +43,6 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
     margin-bottom: 60px;
 }
@@ -57,9 +52,10 @@ body {
 }
 
 #menu {
-    margin-top: 38px;
-    height: 55px;
-    background-image: linear-gradient(to right, #dc0914, #b00914);
+    margin-top: 45px;
+    height: 61px;
+    padding: 0 50px 0 50px;
+    background-image: linear-gradient(to right, #6246ea, #b00914);
     position: fixed;
     z-index: 3;
     font-weight: bold;
@@ -75,7 +71,7 @@ body {
     margin-right: 18px;
     margin-bottom: 8px;
     transform: translateY(-16%);
-    padding-top: 40px;
+    padding-top: 42px;
     font-weight: bold;
 }
 
@@ -107,25 +103,32 @@ body {
 
 /* Đổi màu nền của dropdown list */
 .navbar .dropdown-menu {
-    background-color: #fe372f;
+    background-color: #d1d1e9;
 }
 
 .navbar .dropdown-menu .dropdown-item {
-    color: #fe372f;
+    color: #d1d1e9;
 }
 /* Đổi màu nền của các mục trong dropdown khi di chuột vào */
 .navbar .dropdown-menu a:hover {
     background-color: #ff952e; /* Đổi thành màu bạn muốn */
 }
 
+.form-control {
+    width: auto;
+}
+
 .navbar-collapse .btn {
-    border-color: #ff952e;
-    border-width: 2px;
-    color: #ff952e;
+    border-color: ghostwhite;
+    background-color: ghostwhite;
+    border-width: 3px;
+    color: #2b2c34;
+    font-weight: bold;
 }
 
 .navbar-collapse .btn:hover {
-    background-color: #ff952e;
+    border-color: #6246ea;
+    background-color: #6246ea;
     color: #ffffff;
 }
 
@@ -153,4 +156,68 @@ body {
 
 h1{
     margin-top: 50px;
+}
+
+
+
+/* Footer */
+.Footer {
+    padding-top: 20px;
+    background-color: #24262b;
+    max-width: auto;
+    margin: auto;
+}
+
+.Footer ul {
+    list-style: none;
+}
+
+.Footer h4 {
+    margin-left: 32px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    color: ghostwhite;
+    position: relative;
+}
+
+.Footer h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #dc0914;
+    height: 5px;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.Footer li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.Footer ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.Footer ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.Footer ul li a:hover {
+    color: ghostwhite;
+    padding-left: 10px;
+}
+
+#footer p {
+    color: ghostwhite;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
 }

@@ -64,3 +64,7 @@ D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV
 D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\obj\Debug\net8.0\QuanLyDangKyHocPhanSV.csproj.AssemblyReference.cache
 D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\obj\Debug\net8.0\QuanLyDa.81C04FB1.Up2Date
+D:\Github\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Github\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Github\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\obj\Debug\net8.0\QuanLyDangKyHocPhanSV.csproj.AssemblyReference.cache
+D:\Github\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\obj\Debug\net8.0\QuanLyDa.81C04FB1.Up2Date
