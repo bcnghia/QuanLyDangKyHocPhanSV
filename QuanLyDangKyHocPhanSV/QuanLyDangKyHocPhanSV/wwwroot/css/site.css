@@ -44,7 +44,17 @@ html {
 }
 
 body {
-    margin-bottom: 60px;
+    background-color: #d1d1e9;
+    background-image: url("/images/bg.png"); /* CHổ này để đặt cái ảnh*/
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    background-image: linear-gradient(to top, #6246ea, #d1d1e9);
+    border-radius: 15px;
 }
 
 .navbar navbar-expand-lg navbar-light bg-light {
@@ -166,6 +176,7 @@ h1{
     background-color: #24262b;
     max-width: auto;
     margin: auto;
+    margin-top: 10px;
 }
 
 .Footer ul {

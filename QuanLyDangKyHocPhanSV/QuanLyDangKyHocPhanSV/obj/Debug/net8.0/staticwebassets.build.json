@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MR/VeOc142VKceRvCVZPqSOJhDKzIKL1pYbc+xIGajs=",
+  "Hash": "rBRwAW37ld1icL89pq/x8ESos+V1zpwWh+NdaL+P2c4=",
   "Source": "QuanLyDangKyHocPhanSV",
   "BasePath": "_content/QuanLyDangKyHocPhanSV",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\bg.png",
+      "SourceId": "QuanLyDangKyHocPhanSV",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\",
+      "BasePath": "_content/QuanLyDangKyHocPhanSV",
+      "RelativePath": "images/bg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bg.png"
     },
     {
       "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\js\\site.js",
