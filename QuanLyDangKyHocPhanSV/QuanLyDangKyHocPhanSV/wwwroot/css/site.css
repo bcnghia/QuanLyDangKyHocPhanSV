@@ -153,13 +153,15 @@ html {
 }
 
 h1{
-    margin-top: 50px;
+    color: ghostwhite;
+    padding-top: 20px;
+    margin-top: 80px;
 }
 
 /* Container */
 body {
     background-color: #d1d1e9;
-    background-image: url("/images/bg.png"); /* CHổ này để đặt cái ảnh*/
+    background-image: url("/images/bg.jpg"); /* CHổ này để đặt cái ảnh*/
     align-items: center;
     justify-content: center;
 }
@@ -167,8 +169,9 @@ body {
 .container {
     width: 90vw;
     height: 90vh;
-    background-image: linear-gradient(to top, #6246ea, #d1d1e9);
-    border-radius: 15px;
+    background-color: rgba(17,25,40,0.75);
+    backdrop-filter: blur(20px) saturate(180%);
+    border-radius: 20px;
 }
 
 /* Footer */
@@ -177,7 +180,7 @@ body {
     background-color: #24262b;
     max-width: auto;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .Footer ul {
@@ -202,7 +205,7 @@ body {
     background-color: #dc0914;
     height: 5px;
     box-sizing: border-box;
-    width: 80px;
+    width: 100px;
 }
 
 .Footer li a {
@@ -229,7 +232,7 @@ body {
 
 #footer p {
     color: ghostwhite;
-    text-align: center;
     font-size: 18px;
     margin-top: 10px;
 }
+
