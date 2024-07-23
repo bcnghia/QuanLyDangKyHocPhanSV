@@ -2,7 +2,7 @@
 
 namespace QuanLyDangKyHocPhanSV.Controllers
 {
-    public class QLTaiKhoanController : Controller
+    public class QuanLyTaiKhoanController : Controller
     {
         public IActionResult SinhVien()
         {

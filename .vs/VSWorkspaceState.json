@@ -4,7 +4,9 @@
     "\\QuanLyDangKyHocPhanSV",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views",
-    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Shared"
+    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Shared",
+    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot",
+    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css"
   ],
   "SelectedNode": "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
