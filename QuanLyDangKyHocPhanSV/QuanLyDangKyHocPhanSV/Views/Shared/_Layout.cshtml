@@ -34,22 +34,23 @@
                                 Môn Học
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Thêm môn học</a></li>
-                                <li><a class="dropdown-item" href="#">Danh sách sinh viên đăng ký môn</a></li>
+                                <li><a class="dropdown-item" asp-controller="MonHoc" asp-action="ThemMonHoc">Thêm môn học</a></li>
+                                <li><a class="dropdown-item" asp-controller="MonHoc" asp-action="DanhSachSinhVienDangKy">Danh sách sinh viên đăng ký môn</a></li>
                             </ul>
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTaiKhoan" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Quản lý tài khoản
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Sinh viên</a></li>
-                                <li><a class="dropdown-item" href="#">Giảng viên</a></li>
-                                <li><a class="dropdown-item" href="#">Giáo vụ</a></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTaiKhoan">
+                                <li><a class="dropdown-item" asp-controller="QLTaiKhoan" asp-action="SinhVien">Sinh viên</a></li>
+                                <li><a class="dropdown-item" asp-controller="QLTaiKhoan" asp-action="GiangVien">Giảng viên</a></li>
+                                <li><a class="dropdown-item" asp-controller="QLTaiKhoan" asp-action="GiaoVu">Giáo vụ</a></li>
                             </ul>
                         </li>
                     </ul>
+
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Tìm kiếm</button>
