@@ -7,15 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\DangNhap.html" />
+    <Compile Remove="Views\Pages\**" />
+    <Content Remove="Views\Pages\**" />
+    <EmbeddedResource Remove="Views\Pages\**" />
+    <None Remove="Views\Pages\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\Pages\" />
   </ItemGroup>
 
 </Project>

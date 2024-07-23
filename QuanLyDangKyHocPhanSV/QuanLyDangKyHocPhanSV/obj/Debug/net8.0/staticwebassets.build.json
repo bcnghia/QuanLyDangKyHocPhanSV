@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DuibRz3qfyLU/BVGKbrBoJ21KcdxHpiRqub3nrlu9do=",
+  "Hash": "r3POKHDYPBJ2YsWZJ+FkXFGhWTraQsew6f/PGS/E4qI=",
   "Source": "QuanLyDangKyHocPhanSV",
   "BasePath": "_content/QuanLyDangKyHocPhanSV",
   "Mode": "Default",
@@ -72,25 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\DangNhap.html",
-      "SourceId": "QuanLyDangKyHocPhanSV",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\",
-      "BasePath": "_content/QuanLyDangKyHocPhanSV",
-      "RelativePath": "DangNhap.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\DangNhap.html"
     },
     {
       "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\favicon.ico",
