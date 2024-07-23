@@ -22,10 +22,10 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="Index">Môn Học</a>
+                            <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Môn Học</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="DangNhap" asp-action="Index">Tài Khoản</a>
+                            <a class="nav-link" asp-area="" asp-controller="TaiKhoan" asp-action="ThongTinTaiKhoan">Tài Khoản</a>
                         </li>
 
 
@@ -34,8 +34,8 @@
                                 Môn Học
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="ThemMonHoc">Thêm môn học</a></li>
-                                <li><a class="dropdown-item" asp-controller="MonHoc" asp-action="DanhSachSinhVienDangKy">Danh sách sinh viên đăng ký môn</a></li>
+                                <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Thêm môn học</a></li>
+                                <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="ListDangKyMonHoc">Danh sách sinh viên đăng ký môn</a></li>
                             </ul>
                         </li>
 

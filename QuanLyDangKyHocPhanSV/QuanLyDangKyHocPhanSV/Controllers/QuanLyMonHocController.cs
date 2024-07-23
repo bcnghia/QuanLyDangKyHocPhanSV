@@ -4,7 +4,11 @@ namespace QuanLyDangKyHocPhanSV.Controllers
 {
     public class QuanLyMonHocController : Controller
     {
-        public IActionResult Index()
+        public IActionResult MonHoc()
+        {
+            return View();
+        }
+        public IActionResult ListDangKyMonHoc()
         {
             return View();
         }

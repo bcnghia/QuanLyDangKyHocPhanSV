@@ -2,7 +2,7 @@
     ViewData["Title"] = "Tài Khoản";
 }
 
-<div class="content container">
+<div class="content">
     <div class="row justify-content-center">
         <div class="col-md-4">
             <div class="card mt-5">
@@ -10,7 +10,7 @@
                     <h3>Login</h3>
                 </div>
                 <div class="card-body">
-                    <form asp-controller="DangNhap" asp-action="TaiKhoan" method="post">
+                    <form asp-controller="TaiKhoan" asp-action="TaiKhoan" method="post">
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
@@ -19,6 +19,12 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                         </div>
+                        @if (ViewBag.ErrorMessage != null)
+                        {
+                            <div class="alert alert-danger">
+                                @ViewBag.ErrorMessage
+                            </div>
+                        }
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
                     </form>
                 </div>
