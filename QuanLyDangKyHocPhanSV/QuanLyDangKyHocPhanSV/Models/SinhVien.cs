@@ -1,35 +1,29 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
 
-namespace QuanLyDangKyHocPhanSV.Models
+namespace QuanLyDangKyHocPhanSV.Models;
+
+public partial class SinhVien
 {
-    public class SinhVien
-    {
-        [Key]
-        [StringLength(8)]
-        public string MaSV { get; set; }
+    public string MaSv { get; set; } = null!;
 
-        [StringLength(120)]
-        public string TenSV { get; set; }
+    public string TenSv { get; set; } = null!;
 
-        public DateTime NgaySinh { get; set; }
+    public DateOnly NgaySinh { get; set; }
 
-        public byte GioiTinh { get; set; } // Tinyint tương đương với byte
+    public byte GioiTinh { get; set; }
 
-        [StringLength(50)]
-        public string Email { get; set; }
+    public string? Email { get; set; }
 
-        [StringLength(50)]
-        public string Khoa { get; set; }
-        [StringLength(50)]
-        public string Lop { get; set; }
+    public string? Khoa { get; set; }
 
-        [StringLength(50)]
-        public string MatKhau { get; set; }
+    public string? Lop { get; set; }
 
-        [ForeignKey("RoleAccount")]
-        [StringLength(50)]
-        public string RoleAccount { get; set; } = "student";
-    }
+    public string? MatKhau { get; set; }
 
+    public string? RoleAccount { get; set; }
+
+    public virtual ICollection<DangKyMonHoc> DangKyMonHocs { get; set; } = new List<DangKyMonHoc>();
+
+    public virtual RoleAccount? RoleAccountNavigation { get; set; }
 }

@@ -1,56 +1,24 @@
-﻿@{
-    ViewData["Title"] = "Thêm Môn Học";
-    Layout = "_Layout";
-}
-
-<style>
-    .text-custom-white {
-        color: white;
-    }l
-</style>
-
-<div class="content text-center bg-warning">
-    <h1 class="text-custom-white">THÊM MÔN HỌC sida</h1>
-</div>
-
-<div class="container mt-4">
-    <form action="/MonHoc/Add" method="post" class="form-horizontal">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group row">
-                    <label for="MaMH" class="col-sm-4 col-form-label text-custom-white">Mã MH:</label>
-                    <div class="col-sm-8">
-                        <input type="text" id="MaMH" name="MaMH" maxlength="7" class="form-control" required>
-                    </div>
-                </div><br />
-                <div class="form-group row">
-                    <label for="TenMH" class="col-sm-4 col-form-label text-custom-white">Tên MH:</label>
-                    <div class="col-sm-8">
-                        <input type="text" id="TenMH" name="TenMH" maxlength="120" class="form-control" required>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group row">
-                    <label for="SoTiet" class="col-sm-4 col-form-label text-custom-white">Số Tiết:</label>
-                    <div class="col-sm-8">
-                        <input type="number" id="SoTiet" name="SoTiet" class="form-control" required>
-                    </div>
-                </div><br />
-                <div class="form-group row">
-                    <label for="SoTinChi" class="col-sm-4 col-form-label text-custom-white">Số Tín Chỉ:</label>
-                    <div class="col-sm-8">
-                        <input type="number" id="SoTinChi" name="SoTinChi" class="form-control" required>
-                    </div>
-                </div>
-            </div>
-        </div><br /><br />
-        <center>
-        <div class="form-group row">
-            <div class="col-sm-10 offset-sm-2">
-                <input type="submit" value="Thêm Môn Học" class="btn btn-primary">
-            </div>
-        </div>
-        </center>
-    </form>
-</div>
+﻿<table class="table page-content">
+    <thead>
+        <tr>
+            <th>Id môn học</th>
+            <th>tên môn học</th>
+            <th>số tín chỉ</th>
+            <th>số tiết</th>
+            <th>thời khóa biểu</th>
+        </tr>
+    </thead>
+    <tbody>
+        @model List<MonHoc>
+        @foreach (var monHoc in Model)
+        {
+            <tr>
+                <td>@monHoc.MaMh</td>
+                <td>@monHoc.TenMh</td>
+                <td>@monHoc.SoTinChi</td>
+                <td>@monHoc.SoTiet</td>
+                <td>@monHoc.ThoiKhoaBieu</td>
+            </tr>
+        }
+    </tbody>
+</table>

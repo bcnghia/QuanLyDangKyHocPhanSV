@@ -3,8 +3,12 @@ using System.Collections.Generic;
 
 namespace QuanLyDangKyHocPhanSV.Models;
 
-public partial class MonHoc
+public partial class VThongTinDangKyMonHoc
 {
+    public string MaSv { get; set; } = null!;
+
+    public string TenSv { get; set; } = null!;
+
     public string MaMh { get; set; } = null!;
 
     public string TenMh { get; set; } = null!;
@@ -13,9 +17,5 @@ public partial class MonHoc
 
     public int SoTinChi { get; set; }
 
-    public string? ThoiKhoaBieu { get; set; }
-
-    public virtual ICollection<DangKyMonHoc> DangKyMonHocs { get; set; } = new List<DangKyMonHoc>();
-
-    public virtual ICollection<Lop> Lops { get; set; } = new List<Lop>();
+    public DateTime? ThoiGianDangKy { get; set; }
 }
