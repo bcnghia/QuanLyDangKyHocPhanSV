@@ -1,4 +1,5 @@
-﻿using QuanLyDangKyHocPhanSV.Services;
+﻿using Microsoft.EntityFrameworkCore;
+using QuanLyDangKyHocPhanSV.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,9 +8,7 @@ builder.Services.AddRazorComponents(); // Thêm dòng này
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-{
-    var connectString = builder.Configuration.GetConnectionString("DefaultConnection");
-});
+options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

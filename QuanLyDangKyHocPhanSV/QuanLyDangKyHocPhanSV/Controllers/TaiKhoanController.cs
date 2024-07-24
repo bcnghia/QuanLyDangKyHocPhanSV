@@ -21,7 +21,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
 
                 // Điều hướng về trang tài khoản
                 ViewBag.Email = email;
-                return View("ThongTinTaiKhoan");
+                return RedirectToAction("ThongTinTaiKhoan");
             }
 
             // Đăng nhập thất bại
