@@ -1,16 +1,22 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using QuanLyDangKyHocPhanSV.Data;
 using QuanLyDangKyHocPhanSV.Models;
 
 namespace QuanLyDangKyHocPhanSV.Controllers
 {
     public class TaiKhoanController : Controller
     {
+        QLDKHocPhanContext db = new QLDKHocPhanContext();
         // Phương thức POST cho form đăng nhập
         [HttpPost]
         public IActionResult TaiKhoan(string email, string password)
         {
+            var user = db.VThongTinDangNhaps.SingleOrDefault(u => u.EmailNguoiDung == email && u.MatKhau == password);
+
             // Thực hiện các thao tác đăng nhập
-            if (email == "admin@gmail.com" && password == "123")
+            //if (email == "admin@gmail.com" && password == "123")
+            // dùng tạm tài khoản trong trường hợp lỡ database có vấn đề
+            if (user!=null || (email == "admin@gmail.com" && password == "123"))
             {
                 // Đăng nhập thành công, lưu thông tin vào cookies
                 CookieOptions option = new CookieOptions();
@@ -21,7 +27,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
 
                 // Điều hướng về trang tài khoản
                 ViewBag.Email = email;
-                return View("ThongTinTaiKhoan");
+                return RedirectToAction("ThongTinTaiKhoan");
             }
 
             // Đăng nhập thất bại

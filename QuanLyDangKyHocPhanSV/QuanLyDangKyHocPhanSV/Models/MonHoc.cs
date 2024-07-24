@@ -1,22 +1,21 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace QuanLyDangKyHocPhanSV.Models
+namespace QuanLyDangKyHocPhanSV.Models;
+
+public partial class MonHoc
 {
-    public class MonHoc
-    {
-        [Key]
-        [StringLength(7)]
-        public string MaMH { get; set; }
+    public string MaMh { get; set; } = null!;
 
-        [Column(TypeName = "nvarchar(120)")]
-        public string TenMH { get; set; }
+    public string TenMh { get; set; } = null!;
 
-        public int SoTiet { get; set; }
+    public int SoTiet { get; set; }
 
-        public int SoTinChi { get; set; }
+    public int SoTinChi { get; set; }
 
-        [Column(TypeName = "nvarchar(300)")]
-        public string ThoiKhoaBieu { get; set; }
-    }
+    public string? ThoiKhoaBieu { get; set; }
+
+    public virtual ICollection<DangKyMonHoc> DangKyMonHocs { get; set; } = new List<DangKyMonHoc>();
+
+    public virtual ICollection<Lop> Lops { get; set; } = new List<Lop>();
 }

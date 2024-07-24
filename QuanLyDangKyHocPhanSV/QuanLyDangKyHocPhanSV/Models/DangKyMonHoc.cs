@@ -1,17 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
 
-namespace QuanLyDangKyHocPhanSV.Models
+namespace QuanLyDangKyHocPhanSV.Models;
+
+public partial class DangKyMonHoc
 {
-    public class DangKyMonHoc
-    {
-        [ForeignKey("MonHoc")]
-        [Column(TypeName = "varchar(7)")]
-        public string MaMH { get; set; }
+    public string MaMh { get; set; } = null!;
 
-        [ForeignKey("SinhVien")]
-        [Column(TypeName = "varchar(8)")]
-        public string MaSV { get; set; }
+    public string MaSv { get; set; } = null!;
 
-        public DateTime ThoiGianDangKy { get; set; } = DateTime.Now; // Gán giá trị mặc định là thời gian hiện tại
-    }
+    public DateTime? ThoiGianDangKy { get; set; }
+
+    public virtual MonHoc MaMhNavigation { get; set; } = null!;
+
+    public virtual SinhVien MaSvNavigation { get; set; } = null!;
 }

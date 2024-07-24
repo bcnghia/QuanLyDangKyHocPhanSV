@@ -1,20 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.Collections.Generic;
 
-namespace QuanLyDangKyHocPhanSV.Models
+namespace QuanLyDangKyHocPhanSV.Models;
+
+public partial class Lop
 {
-    public class Lop
-    {
-        [Key]
-        [StringLength(50)]
-        public string MaLop { get; set; }
+    public string MaLop { get; set; } = null!;
 
-        [ForeignKey("MonHoc")]
-        [Column(TypeName = "varchar(7)")]
-        public string MaMH { get; set; }
+    public string? MaMh { get; set; }
 
-        [ForeignKey("GiangVien")]
-        [Column(TypeName = "varchar(8)")]
-        public string MaGV { get; set; }
-    }
+    public string? MaGv { get; set; }
+
+    public virtual GiangVien? MaGvNavigation { get; set; }
+
+    public virtual MonHoc? MaMhNavigation { get; set; }
 }

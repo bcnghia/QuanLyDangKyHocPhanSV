@@ -22,33 +22,36 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Môn Học</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="TaiKhoan" asp-action="ThongTinTaiKhoan">Tài Khoản</a>
                         </li>
 
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Môn Học
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Thêm môn học</a></li>
-                                <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="ListDangKyMonHoc">Danh sách sinh viên đăng ký môn</a></li>
-                            </ul>
-                        </li>
+                        @if (Context.Request.Cookies["IsLoggedIn"] == "true")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Môn học</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Quản lý Môn Học
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="ThemMonHoc">Thêm môn học</a></li>
+                                    <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="ListDangKyMonHoc">Danh sách sinh viên đăng ký môn</a></li>
+                                </ul>
+                            </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTaiKhoan" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Quản lý tài khoản
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTaiKhoan">
-                                <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="SinhVien">Sinh viên</a></li>
-                                <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="GiangVien">Giảng viên</a></li>
-                                <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="GiaoVu">Giáo vụ</a></li>
-                            </ul>
-                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTaiKhoan" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Quản lý tài khoản
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownTaiKhoan">
+                                    <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="SinhVien">Sinh viên</a></li>
+                                    <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="GiangVien">Giảng viên</a></li>
+                                    <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="GiaoVu">Giáo vụ</a></li>
+                                </ul>
+                            </li>
+                        }
                     </ul>
 
                     <form class="d-flex">
