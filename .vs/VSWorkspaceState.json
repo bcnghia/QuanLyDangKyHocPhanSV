@@ -3,11 +3,13 @@
     "",
     "\\QuanLyDangKyHocPhanSV",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV",
+    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Controllers",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views",
+    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\QuanLyTaiKhoan",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Shared",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css"
   ],
-  "SelectedNode": "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }
