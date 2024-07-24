@@ -172,7 +172,12 @@ body {
     background-color: rgba(17,25,40,0.75);
     backdrop-filter: blur(20px) saturate(180%);
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px; /* Thêm khoảng cách từ đỉnh */
 }
+
 
 /* Footer */
 .Footer {
@@ -239,4 +244,23 @@ body {
 .page-content{
     color: #ffffff;
     margin-top: 80px;
+}
+
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
 }
