@@ -4106,24 +4106,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DFox\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\MSI'\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+      "projectUniqueName": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
       "projectName": "QuanLyDangKyHocPhanSV",
-      "projectPath": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
-      "packagesPath": "C:\\Users\\DFox\\.nuget\\packages\\",
-      "outputPath": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\",
+      "projectPath": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+      "packagesPath": "C:\\Users\\MSI'\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\DFox\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\MSI'\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4131,6 +4126,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4188,7 +4184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -246,6 +246,7 @@ body {
     margin-top: 80px;
 }
 
+/* DangNhap */
 
 .divider:after,
 .divider:before {
@@ -255,12 +256,29 @@ body {
     background: #eee;
 }
 
-.h-custom {
-    height: calc(100% - 73px);
-}
 
-@media (max-width: 450px) {
+@media (max-width: 720px) {
     .h-custom {
         height: 100%;
     }
 }
+
+.dangnhap {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 74px; /* Thêm khoảng cách từ đỉnh */
+}
+
+.form-control.form-control-lg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-body {
+    color: ghostwhite !important;
+}
+

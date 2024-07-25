@@ -82,31 +82,39 @@ CREATE TABLE DangKyMonHoc (
     FOREIGN KEY (MaSV) REFERENCES SinhVien(MaSV)
 );
 
+
 -------------------------------------------------------
 ---------- THÊM VIEW ĐỂ DỄ TRUY XUẤT DỮ LIỆU ----------
 -------------------------------------------------------
+ALTER TABLE tblSinhVien
+ADD RoleAccount VARCHAR(50);
+ALTER TABLE GiaoVu
+ADD RoleAccount VARCHAR(50);
+ALTER TABLE GiangVien
+ADD RoleAccount VARCHAR(50);
+
 
 -- Thông tin ĐĂNG NHẬP
 CREATE VIEW vThongTinDangNhap 
 AS
 	SELECT 
-		MaSV AS MaNguoiDung, 
+		Email AS EmailNguoiDung, 
 		MatKhau, 
 		RoleAccount 
 	FROM 
-		SinhVien
+		tblSinhVien
 UNION ALL
 	SELECT 
-		MaGiaoVu AS MaNguoiDung, 
+		Email AS EmailNguoiDung, 
 		MatKhau, 
 		RoleAccount 
 	FROM 
 		GiaoVu
 UNION ALL
 	SELECT 
-		MaGV AS MaNguoiDung, 
+		Email AS EmailNguoiDung, 
 		MatKhau, 
-		RoleAccount 
+		RoleAccount
 	FROM 
 		GiangVien;
 
@@ -138,7 +146,7 @@ SELECT
     m.SoTiet,
     m.ThoiKhoaBieu
 FROM 
-    Lop l
+    tblLopHoc l
 JOIN 
     MonHoc m ON l.MaMH = m.MaMH
 JOIN 
