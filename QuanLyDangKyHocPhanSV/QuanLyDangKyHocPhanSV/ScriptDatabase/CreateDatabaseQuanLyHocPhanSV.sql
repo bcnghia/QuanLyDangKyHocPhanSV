@@ -86,12 +86,12 @@ CREATE TABLE DangKyMonHoc (
 -------------------------------------------------------
 ---------- THÊM VIEW ĐỂ DỄ TRUY XUẤT DỮ LIỆU ----------
 -------------------------------------------------------
-ALTER TABLE tblSinhVien
-ADD RoleAccount VARCHAR(50);
-ALTER TABLE GiaoVu
-ADD RoleAccount VARCHAR(50);
-ALTER TABLE GiangVien
-ADD RoleAccount VARCHAR(50);
+--ALTER TABLE tblSinhVien
+--ADD RoleAccount VARCHAR(50);
+--ALTER TABLE GiaoVu
+--ADD RoleAccount VARCHAR(50);
+--ALTER TABLE GiangVien
+--ADD RoleAccount VARCHAR(50);
 
 
 -- Thông tin ĐĂNG NHẬP
@@ -102,7 +102,7 @@ AS
 		MatKhau, 
 		RoleAccount 
 	FROM 
-		tblSinhVien
+		SinhVien
 UNION ALL
 	SELECT 
 		Email AS EmailNguoiDung, 
@@ -146,7 +146,7 @@ SELECT
     m.SoTiet,
     m.ThoiKhoaBieu
 FROM 
-    tblLopHoc l
+    Lop l
 JOIN 
     MonHoc m ON l.MaMH = m.MaMH
 JOIN 
