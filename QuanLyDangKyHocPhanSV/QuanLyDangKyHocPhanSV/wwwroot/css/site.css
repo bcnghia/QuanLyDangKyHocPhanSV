@@ -167,15 +167,17 @@ body {
 }
 
 .container {
-    width: 90vw;
+    max-width: 100%;
+    width: auto;
     height: 90vh;
-    background-color: rgba(17,25,40,0.75);
-    backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(17,25,45,0.40);
+    backdrop-filter: blur(10px) saturate(180%);
     border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 74px; /* Thêm khoảng cách từ đỉnh */
+    margin: 90px 60px 0 60px;
+
 }
 
 
@@ -185,7 +187,7 @@ body {
     background-color: #24262b;
     max-width: auto;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .Footer ul {
