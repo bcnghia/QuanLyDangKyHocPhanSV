@@ -9,7 +9,7 @@
             <th>số tín chỉ</th>
             <th>số tiết</th>
             <th>thời khóa biểu</th>
-            <th>Chức năng</th>
+            <th>Đăng ký môn</th>
         </tr>
     </thead>
     <tbody>
@@ -22,8 +22,17 @@
                 <td>@monHoc.SoTinChi</td>
                 <td>@monHoc.SoTiet</td>
                 <td>@monHoc.ThoiKhoaBieu</td>
-                <td> <a href="#" class="btn btn-warning">Thêm môn học</a></td>
+                <td>
+                    <div class="dangkymon form-check">
+                        <input class="form-check-input bg-danger" type="checkbox" value="" id="defaultCheck1">
+                    </div>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+<div class="xulydangkymonhoc">
+    <button type="button" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>
+    <button type="button" class="btn btn-outline-warning">In Danh Sách Môn</button>
+</div>
+

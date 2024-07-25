@@ -353,3 +353,25 @@ body {
 .carousel-item img {
     border-radius: 20px;
 } 
+
+/* Môn học */
+.dangkymon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.xulydangkymonhoc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.xulydangkymonhoc button {
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px;
+    border-width: 3px;
+}
