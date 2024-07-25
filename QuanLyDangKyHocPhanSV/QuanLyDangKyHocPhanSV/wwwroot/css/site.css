@@ -45,6 +45,16 @@ html {
 
 /* Header*/
 
+.logo {
+    margin-left: 20px;
+    max-width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
 .navbar navbar-expand-lg navbar-light bg-light {
     font-weight: bold;
 }
@@ -156,6 +166,11 @@ h1{
     color: ghostwhite;
     padding-top: 20px;
     margin-top: 80px;
+}
+
+h3 {
+    color: ghostwhite;
+
 }
 
 /* Container */
@@ -284,3 +299,57 @@ body {
     color: ghostwhite !important;
 }
 
+/* Trang Chủ */
+
+.styled-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ff0000; /* Chữ đỏ */
+    text-shadow: 2px 2px #fafafa, /* Viền trắng */
+    -2px -2px #fafafa, 2px -2px #fafafa, -2px 2px #fafafa, 0px 0px 3px #000;
+}
+
+.styled-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff000; /* Chữ vàng */
+    text-shadow: 2px 2px #ff0000, /* Viền đỏ */
+    -2px -2px #ff0000, 2px -2px #ff0000, -2px 2px #ff0000, 0px 0px 3px #000;
+}
+
+.checkerboard {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr); /* Xóa cái này thì có hiệu ứng khác */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.checkerboard div {
+    background-color: rgba(255, 255, 255, 0.3);
+    animation: fadeout 1.2s ease-in-out forwards;
+}
+
+@keyframes fadeout {
+    from {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+
+    to {
+        transform: rotateY(90deg);
+        opacity: 0;
+    }
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    border-radius: 20px;
+} 

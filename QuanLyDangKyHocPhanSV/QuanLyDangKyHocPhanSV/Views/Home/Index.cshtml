@@ -3,6 +3,64 @@
 }
 
 <div class="content text-center">
-    <h1>Home page công nghiệp</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div content text-center mt-5>
+        <h1 class="styled-heading">ĐẠI HỌC BÌNH DƯƠNG</h1>
+        <h3 class="styled-subheading">HỌC - HỎI - HIỂU - HÀNH</h3>
+    </div>
+    
+    <div class="slideshow-container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="slide-main">
+                <div class="carousel-item active">
+                    <img src="/images/banner.jpg" loading="lazy" class="d-block w-100">
+                    <div class="checkerboard">
+                        @for (int i = 0; i < 100; i++)
+                        {
+                            <div></div>
+                        }
+                    </div>
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/banner2.jpg" loading="lazy" class="d-block w-100">
+                    <div class="checkerboard">
+                        @for (int i = 0; i < 100; i++)
+                        {
+                            <div></div>
+                        }
+                    </div>
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/banner3.jpg" loading="lazy" class="d-block w-100">
+                    <div class="checkerboard">
+                        @for (int i = 0; i < 100; i++)
+                        {
+                            <div></div>
+                        }
+                    </div>
+                    <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+<script>
+    $('#carouselExampleCaptions').on('slide.bs.carousel', function (e) {
+        $('.checkerboard div').css('animation', 'none');
+        setTimeout(function () {
+            $('.checkerboard div').css('animation', '');
+        }, 10);
+    });
+</script>
