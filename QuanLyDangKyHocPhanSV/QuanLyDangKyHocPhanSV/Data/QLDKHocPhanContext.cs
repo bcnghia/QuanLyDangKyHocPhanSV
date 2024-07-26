@@ -227,18 +227,18 @@ public partial class QLDKHocPhanContext : DbContext
                 .HasNoKey()
                 .ToView("vThongTinDangKyMonHoc");
 
-            entity.Property(e => e.MaMh)
+            entity.Property(e => e.MaMH)
                 .HasMaxLength(7)
                 .IsUnicode(false)
                 .HasColumnName("MaMH");
-            entity.Property(e => e.MaSv)
+            entity.Property(e => e.MaSV)
                 .HasMaxLength(8)
                 .IsUnicode(false)
                 .HasColumnName("MaSV");
-            entity.Property(e => e.TenMh)
+            entity.Property(e => e.TenMH)
                 .HasMaxLength(120)
                 .HasColumnName("TenMH");
-            entity.Property(e => e.TenSv)
+            entity.Property(e => e.TenSV)
                 .HasMaxLength(120)
                 .HasColumnName("TenSV");
             entity.Property(e => e.ThoiGianDangKy).HasColumnType("datetime");
