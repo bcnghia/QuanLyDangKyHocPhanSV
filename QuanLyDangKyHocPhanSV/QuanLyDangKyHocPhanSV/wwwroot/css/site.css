@@ -385,3 +385,20 @@ body {
     font-weight: bold;
     letter-spacing: 5px;
 }
+
+.thongtintk button {
+    max-width: 100%;
+    width: 300px;
+    height: 6vh;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: linear-gradient(to right, #1da1f5, #8039da);
+    background-size: 200% 100%; 
+    background-position: left bottom; 
+    transition: background-position 1s ease; 
+    outline: none;
+}
+
+.thongtintk button:hover {
+    background-position: right bottom; /* Vị trí khi hover */
+}
