@@ -18,7 +18,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             {
                 CookieOptions option = new CookieOptions
                 {
-                    Expires = DateTime.Now.AddMinutes(5)
+                    Expires = DateTime.Now.AddMinutes(5) // 5 phút xóa cookie web và thoát đăng nhập
                 };
                 Response.Cookies.Append("UserEmail", email, option);
                 Response.Cookies.Append("IsLoggedIn", "true", option);
