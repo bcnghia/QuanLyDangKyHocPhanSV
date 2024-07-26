@@ -17,7 +17,7 @@ public partial class GiaoVu
 
     public string? MatKhau { get; set; }
 
-    public string? RoleAccount { get; set; }
+    public string? RoleAccount { get; set; } = "admin";
 
     public virtual RoleAccount? RoleAccountNavigation { get; set; }
 }

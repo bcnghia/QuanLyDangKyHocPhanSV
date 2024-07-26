@@ -19,7 +19,7 @@ public partial class GiangVien
 
     public string? MatKhau { get; set; }
 
-    public string? RoleAccount { get; set; }
+    public string RoleAccount { get; set; } = "teacher";
 
     public virtual ICollection<Lop> Lops { get; set; } = new List<Lop>();
 

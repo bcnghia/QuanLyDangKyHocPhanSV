@@ -21,7 +21,7 @@ public partial class SinhVien
 
     public string? MatKhau { get; set; }
 
-    public string? RoleAccount { get; set; }
+    public string RoleAccount { get; set; } = "student";
 
     public virtual ICollection<DangKyMonHoc> DangKyMonHocs { get; set; } = new List<DangKyMonHoc>();
 

@@ -10,9 +10,6 @@
 
 <h3>DashBoard sinh viên đăng ký môn học</h3>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table" id="datatablesSimple">
     <thead>
         <tr>
@@ -74,39 +71,3 @@
     </tbody>
 </table>
 <script src="~/LayoutAdmin/js/datatables-simple-demo.js"></script>
-@**@
-@* <table class="table table-bordered page-content">
-    <thead>
-        <tr>
-            <th>Id môn học</th>
-            <th>tên môn học</th>
-            <th>số tín chỉ</th>
-            <th>số tiết</th>
-            <th>thời khóa biểu</th>
-            <th>Đăng ký môn</th>
-        </tr>
-    </thead>
-    <tbody>
-        @model List<MonHoc>
-        @foreach (var monHoc in Model)
-        {
-            <tr>
-                <td>@monHoc.MaMh</td>
-                <td>@monHoc.TenMh</td>
-                <td>@monHoc.SoTinChi</td>
-                <td>@monHoc.SoTiet</td>
-                <td>@monHoc.ThoiKhoaBieu</td>
-                <td>
-                    <div class="dangkymon form-check">
-                        <input class="form-check-input bg-danger" type="checkbox" value="" id="defaultCheck1">
-                    </div>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-<div class="xulydangkymonhoc">
-    <button type="button" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>
-    <button type="button" class="btn btn-outline-warning">In Danh Sách Môn</button>
-</div> *@
-
