@@ -14,12 +14,29 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+    <!--<PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.8" />-->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\LayoutAdmin\assets\demo\chart-area-demo.js" />
+    <None Include="wwwroot\LayoutAdmin\assets\demo\chart-bar-demo.js" />
+    <None Include="wwwroot\LayoutAdmin\assets\demo\chart-pie-demo.js" />
+    <None Include="wwwroot\LayoutAdmin\assets\demo\datatables-demo.js" />
+    <None Include="wwwroot\LayoutAdmin\assets\img\error-404-monochrome.svg" />
+    <None Include="wwwroot\LayoutAdmin\js\datatables-simple-demo.js" />
+    <None Include="wwwroot\LayoutAdmin\js\scripts.js" />
   </ItemGroup>
 
 </Project>

@@ -1,275 +1,347 @@
 {
   "Files": [
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyDangKyHocPhanSV.bundle.scp.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyDangKyHocPhanSV.bundle.scp.css",
       "PackagePath": "staticwebassets\\QuanLyDangKyHocPhanSV.bundle.scp.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css\\site.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\401.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\401.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\404.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\404.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\500.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\500.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\charts.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\charts.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\layout-sidenav-light.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\layout-sidenav-light.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\layout-static.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\layout-static.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\login.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\login.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\password.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\password.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\register.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\register.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\tables.html",
+      "PackagePath": "staticwebassets\\LayoutAdmin\\tables.html"
+    },
+    {
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\favicon.ico",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\banner.jpg",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\banner.jpg",
       "PackagePath": "staticwebassets\\images\\banner.jpg"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\banner2.jpg",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\banner2.jpg",
       "PackagePath": "staticwebassets\\images\\banner2.jpg"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\banner3.jpg",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\banner3.jpg",
       "PackagePath": "staticwebassets\\images\\banner3.jpg"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\bg.jpg",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\bg.jpg",
       "PackagePath": "staticwebassets\\images\\bg.jpg"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\bg.png",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\bg.png",
       "PackagePath": "staticwebassets\\images\\bg.png"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.ico",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.ico",
       "PackagePath": "staticwebassets\\images\\logo.ico"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.png",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\js\\site.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
