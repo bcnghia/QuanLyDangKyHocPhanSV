@@ -1,0 +1,69 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model QuanLyDangKyHocPhanSV.Models.SinhVien
+
+@{
+    ViewData["Title"] = "EditSinhVien";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>Sửa thông tin sinh viên</h3>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="EditSinhVien">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaSv" />
+            <div class="form-group">
+                <label asp-for="TenSv" class="control-label">Tên sinh viên</label>
+                <input asp-for="TenSv" class="form-control" />
+                <span asp-validation-for="TenSv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgaySinh" class="control-label">Ngày sinh</label>
+                <input asp-for="NgaySinh" class="form-control" />
+                <span asp-validation-for="NgaySinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GioiTinh" class="control-label">Giới tính</label>
+                <select asp-for="GioiTinh" class="form-control">
+                    <option value="1">Nam</option>
+                    <option value="0">Nữ</option>
+                </select>
+                <span asp-validation-for="GioiTinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Khoa" class="control-label"></label>
+                <input asp-for="Khoa" class="form-control" />
+                <span asp-validation-for="Khoa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lop" class="control-label">Lớp</label>
+                <input asp-for="Lop" class="form-control" />
+                <span asp-validation-for="Lop" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MatKhau" class="control-label">Mật khẩu</label>
+                <input asp-for="MatKhau" class="form-control" />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
+            </div>
+            @* <div class="form-group">
+                <label asp-for="RoleAccount" class="control-label"></label>
+                <select asp-for="RoleAccount" class="form-control" asp-items="ViewBag.RoleAccount"></select>
+                <span asp-validation-for="RoleAccount" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="SinhVien">Back to List</a>
+</div>
+

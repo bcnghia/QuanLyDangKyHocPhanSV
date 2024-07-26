@@ -2,7 +2,7 @@ USE QuanLyDangKyHocPhanSV;
 
 
 -- SELECT
-SELECT * FROM vThongTinDangNhap;
+SELECT * FROM VThongTinDangNhap;
 SELECT * FROM vThongTinDangKyMonHoc;
 SELECT * FROM vThongTinLopHoc;
 
@@ -16,7 +16,7 @@ Select * From Lop;
 
 
 -- DELETE
-DROP VIEW vThongTinDangNhap;
+DROP VIEW VThongTinDangNhap;
 
 DELETE FROM GiaoVu;
 DELETE FROM GiangVien;

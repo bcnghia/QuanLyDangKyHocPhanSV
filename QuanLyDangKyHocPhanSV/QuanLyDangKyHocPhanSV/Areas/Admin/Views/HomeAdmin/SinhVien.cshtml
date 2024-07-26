@@ -1,4 +1,5 @@
-﻿@model IEnumerable<QuanLyDangKyHocPhanSV.Models.SinhVien>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<QuanLyDangKyHocPhanSV.Models.SinhVien>
 
 @{
     ViewData["Title"] = "SinhVien";
@@ -8,7 +9,7 @@
 <h3>DashBoard sinh viên</h3>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="ThemSinhVien">Create New</a>
 </p>
 <table class="table" id="datatablesSimple">
     <thead>
@@ -81,7 +82,7 @@
                 @Html.DisplayFor(modelItem => item.RoleAccount)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.MaSv">Edit</a> |
+                <a asp-action="EditSinhVien" asp-route-maSV="@item.MaSv">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.MaSv">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.MaSv">Delete</a>
             </td>

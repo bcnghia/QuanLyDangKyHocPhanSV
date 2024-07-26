@@ -22,6 +22,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
                 };
                 Response.Cookies.Append("UserEmail", email, option);
                 Response.Cookies.Append("IsLoggedIn", "true", option);
+                Response.Cookies.Append("Role", value: user.RoleAccount);
 
                 ViewBag.Email = email;
                 return RedirectToAction("ThongTinTaiKhoan");

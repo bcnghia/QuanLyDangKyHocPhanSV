@@ -1,0 +1,50 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model QuanLyDangKyHocPhanSV.Models.MonHoc
+
+@{
+    ViewData["Title"] = "ThemMonHoc";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>Thêm môn học</h3>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="ThemMonHoc">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaMh" class="control-label">Mã môn học</label>
+                <input asp-for="MaMh" class="form-control" />
+                <span asp-validation-for="MaMh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenMh" class="control-label">Tên môn học</label>
+                <input asp-for="TenMh" class="form-control" />
+                <span asp-validation-for="TenMh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoTiet" class="control-label">Số tiết</label>
+                <input asp-for="SoTiet" class="form-control" />
+                <span asp-validation-for="SoTiet" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoTinChi" class="control-label">Số tín chỉ</label>
+                <input asp-for="SoTinChi" class="form-control" />
+                <span asp-validation-for="SoTinChi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ThoiKhoaBieu" class="control-label">Thời khóa biểu</label>
+                <input asp-for="ThoiKhoaBieu" class="form-control" />
+                <span asp-validation-for="ThoiKhoaBieu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="DanhSachMonHoc">Back to List</a>
+</div>
+
