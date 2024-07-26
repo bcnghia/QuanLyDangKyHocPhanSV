@@ -1,0 +1,80 @@
+﻿@model IEnumerable<QuanLyDangKyHocPhanSV.Models.GiaoVu>
+
+@{
+    ViewData["Title"] = "GiaoVu";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>DashBoard giáo vụ</h3>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" id="datatablesSimple">
+    <thead>
+        <tr>
+            <th>
+                Mã giáo vụ
+            </th>
+            <th>
+                Tên giáo vụ
+            </th>
+            <th>
+                Ngày sinh
+            </th>
+            <th>
+                Giới tính
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Mật khẩu
+            </th>
+            <th>
+                Vai trò
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaGiaoVu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenGiaoVu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                    @if (item.GioiTinh == 1)
+                    {
+                        @:Nam
+                    }
+                    else
+                    {
+                        @:Nữ
+                    }
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatKhau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoleAccount)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaGiaoVu">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaGiaoVu">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaGiaoVu">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script src="~/LayoutAdmin/js/datatables-simple-demo.js"></script>

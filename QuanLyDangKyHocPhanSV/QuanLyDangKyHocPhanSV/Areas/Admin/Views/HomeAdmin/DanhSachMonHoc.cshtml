@@ -1,0 +1,67 @@
+﻿@model IEnumerable<QuanLyDangKyHocPhanSV.Models.MonHoc>
+
+@{
+    ViewData["Title"] = "DanhSachMonHoc";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>DashBoard môn học</h3>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" id="datatablesSimple">
+    <thead>
+        <tr>
+            <th>
+                Mã môn học
+            </th>
+            <th>
+                Tên môn học
+            </th>
+            <th>
+                Số tiết
+            </th>
+            <th>
+                Số tín chỉ
+            </th>
+            <th>
+                Thời khóa biểu
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaMh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenMh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoTiet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoTinChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThoiKhoaBieu)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaMh">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaMh">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaMh">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script src="~/LayoutAdmin/js/datatables-simple-demo.js"></script>
+
+@* @Html.PagedListPager(Model,page => Url.Action("DanhSachMonHoc", new {page=page}),new
+XmlConfigurationExtensions.PagedList.Web.Common.PagedListRenderOptions(){
+    LiElementClasses = new List<String> {"page-item"},
+    PageClasses = new List<String> {"page-link"}
+}) *@

@@ -1,0 +1,112 @@
+﻿@using QuanLyDangKyHocPhanSV.Models
+@* @model IEnumerable<QuanLyDangKyHocPhanSV.Models.SinhVien>
+ *@
+
+@model List<VThongTinDangKyMonHoc>
+@{
+    ViewData["Title"] = "SinhVienDangKyMonHoc";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>DashBoard sinh viên đăng ký môn học</h3>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" id="datatablesSimple">
+    <thead>
+        <tr>
+            <th>
+                Mã sinh viên
+            </th>
+            <th>
+                Tên sinh viên
+            </th>
+            <th>
+                Mã môn học
+            </th>
+            <th>
+                Tên môn học
+            </th>
+            <th>
+                Số tiết
+            </th>
+            <th>
+                Số tín chỉ
+            </th>
+            <th>
+                Thời gian đăng ký
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.MaSV
+                </td>
+                <td>
+                    @item.TenSV
+                </td>
+                <td>
+                    @item.MaMH
+                </td>
+                <td>
+                    @item.TenMH
+                </td>
+                <td>
+                    @item.SoTiet
+                </td>
+                <td>
+                    @item.SoTinChi
+                </td>
+                <td>
+                    @item.ThoiGianDangKy
+                </td>
+                <td>
+                    @* <a asp-action="Details" asp-route-id="@item.MaSv">Details</a> | *@
+                    <a asp-action="Delete" asp-route-id="@item.MaSV">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="~/LayoutAdmin/js/datatables-simple-demo.js"></script>
+@**@
+@* <table class="table table-bordered page-content">
+    <thead>
+        <tr>
+            <th>Id môn học</th>
+            <th>tên môn học</th>
+            <th>số tín chỉ</th>
+            <th>số tiết</th>
+            <th>thời khóa biểu</th>
+            <th>Đăng ký môn</th>
+        </tr>
+    </thead>
+    <tbody>
+        @model List<MonHoc>
+        @foreach (var monHoc in Model)
+        {
+            <tr>
+                <td>@monHoc.MaMh</td>
+                <td>@monHoc.TenMh</td>
+                <td>@monHoc.SoTinChi</td>
+                <td>@monHoc.SoTiet</td>
+                <td>@monHoc.ThoiKhoaBieu</td>
+                <td>
+                    <div class="dangkymon form-check">
+                        <input class="form-check-input bg-danger" type="checkbox" value="" id="defaultCheck1">
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="xulydangkymonhoc">
+    <button type="button" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>
+    <button type="button" class="btn btn-outline-warning">In Danh Sách Môn</button>
+</div> *@
+
