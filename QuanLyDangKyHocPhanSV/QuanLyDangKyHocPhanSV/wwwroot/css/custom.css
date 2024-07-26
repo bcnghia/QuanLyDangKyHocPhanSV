@@ -1,0 +1,38 @@
+﻿.text-custom-white {
+    color: white !important;
+}
+
+.wide-input {
+    width: 100% !important;
+}
+
+.bg-full-screen {
+    width: 100% !important;
+    height: 100% !important;
+    background-size: cover !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: rgba(211, 211, 211, 0.5) !important; /* Đặt nền xám nhạt với độ trong suốt */
+    padding: 0 !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+
+.form-container {
+    max-width: 800px !important;
+    width: 100% !important;
+    padding: 20px !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 10px !important;
+}
+
+.content {
+    padding: 20px !important;
+    background-color: rgba(255, 193, 7, 0.7) !important;
+    border-radius: 10px !important;
+    margin-bottom: 20px !important;
+}

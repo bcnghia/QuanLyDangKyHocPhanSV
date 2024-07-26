@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\2507_dangkyhocphan\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\26_07\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
       "projectName": "QuanLyDangKyHocPhanSV",
-      "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\2507_dangkyhocphan\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+      "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\26_07\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\2507_dangkyhocphan\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\26_07\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
