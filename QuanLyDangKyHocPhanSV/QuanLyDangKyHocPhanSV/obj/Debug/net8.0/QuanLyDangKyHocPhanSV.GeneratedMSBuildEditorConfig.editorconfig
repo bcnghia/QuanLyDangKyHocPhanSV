@@ -30,8 +30,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoTW9uSG9jLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DEV_Project/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/Areas/Admin/Views/HomeAdmin/GiangVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEdpYW5nVmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_Project/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/Areas/Admin/Views/HomeAdmin/GiaoVu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEdpYW9WdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DEV_Project/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_Project/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/Areas/Admin/Views/HomeAdmin/SinhVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFNpbmhWaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DEV_Project/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/Areas/Admin/Views/HomeAdmin/SinhVienDangKyMonHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFNpbmhWaWVuRGFuZ0t5TW9uSG9jLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DEV_Project/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/QuanLyDangKyHocPhanSV/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]

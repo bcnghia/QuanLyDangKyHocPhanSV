@@ -1,0 +1,89 @@
+﻿@model IEnumerable<QuanLyDangKyHocPhanSV.Models.GiangVien>
+
+@{
+    ViewData["Title"] = "GiangVien";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3>DashBoard giảng viên</h3>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table" id="datatablesSimple">
+    <thead>
+        <tr>
+            <th>
+                Mã giảng viên
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenGv)
+            </th>
+            <th>
+                Ngày sinh
+            </th>
+            <th>
+                Giới tính
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Học hàm
+            </th>
+            <th>
+                Mật khẩu
+            </th>
+            <th>
+                Vai trò
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaGv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenGv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+           @*  <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td> *@
+            <td>
+                    @if (item.GioiTinh == 1)
+                    {
+                        @:Nam
+                    }
+                    else
+                    {
+                        @:Nữ
+                    }
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HocHam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatKhau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoleAccount)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.MaGv">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.MaGv">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.MaGv">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<script src="~/LayoutAdmin/js/datatables-simple-demo.js"></script>
