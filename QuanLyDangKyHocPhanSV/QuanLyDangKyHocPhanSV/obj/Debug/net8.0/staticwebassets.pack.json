@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\bg.png"
     },
     {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.ico",
+      "PackagePath": "staticwebassets\\images\\logo.ico"
+    },
+    {
       "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },

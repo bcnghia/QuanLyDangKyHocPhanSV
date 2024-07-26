@@ -2,11 +2,17 @@
     ViewData["Title"] = "Thông tin tài khoản";
 }
 
-<div class="page-content">
-    <h1>Thông tin tài khoản</h1>
-    <p>Diễn xiếc đê</p>
-    <p>Email đã lưu: @ViewBag.Email</p>
-    <form asp-controller="TaiKhoan" asp-action="DangXuat" method="post">
-        <button type="submit" class="btn btn-primary">Đăng xuất</button>
-    </form>
+<div class="thongtintk mt-5">
+    <div class="page-content p-5 rounded">
+        <div class="text-center mb-4">
+            <h1 class="display-4">Thông tin tài khoản</h1>
+        </div>
+        <div class="mb-4">
+            <h5>Email tài khoản:</h5>
+            <p class="text-warning">@ViewBag.Email</p>
+        </div>
+        <form asp-controller="TaiKhoan" asp-action="DangXuat" method="post" class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Đăng xuất</button>
+        </form>
+    </div>
 </div>

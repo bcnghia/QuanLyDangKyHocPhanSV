@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+evHAG2Uj9fSkA3KgJD7850T9drqfaqas5CIXzRTlOw=",
+  "Hash": "fWcH202LLAcEpRred3QHQmsoEWD/lTxIwv8notDYAW0=",
   "Source": "QuanLyDangKyHocPhanSV",
   "BasePath": "_content/QuanLyDangKyHocPhanSV",
   "Mode": "Default",
@@ -186,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bg.png"
+    },
+    {
+      "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.ico",
+      "SourceId": "QuanLyDangKyHocPhanSV",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\",
+      "BasePath": "_content/QuanLyDangKyHocPhanSV",
+      "RelativePath": "images/logo.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.ico"
     },
     {
       "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.png",
