@@ -376,8 +376,18 @@ body {
     border-width: 3px;
 }
 
-/* Thông tin Tài khoản*/
-.thongtintk h1{
+/* Trang Thông tin Tài khoản */
+
+.thongtinsv p,
+.thongtinsv h1{
+    font-weight: bold;
+}
+
+.thongtinsv h1 {
+
+}
+
+.thongtintk h1 {
     font-weight: bold;
 }
 
@@ -402,3 +412,72 @@ body {
 .thongtintk button:hover {
     background-position: right bottom; /* Vị trí khi hover */
 }
+
+/* Trang Giới thiệu */
+#about_us h1,
+#about_us p {
+    color: ghostwhite;
+}
+
+/* hình */
+.Gioithieu .image-container {
+    position: relative;
+}
+
+/* phần nền mờ */
+/*.Gioithieu #page1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);*/ /* Độ mờ của lớp chồng (80% mờ) */
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Gioithieu #page2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);*/ /* Độ mờ của lớp chồng (80% mờ) */
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Gioithieu #page3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);*/ /* Độ mờ của lớp chồng (80% mờ) */
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Gioithieu .overlay-text {
+    color: ghostwhite;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 762px) {
+    .Gioithieu .overlay-text {
+        font-size: 8px;
+    }
+}*/

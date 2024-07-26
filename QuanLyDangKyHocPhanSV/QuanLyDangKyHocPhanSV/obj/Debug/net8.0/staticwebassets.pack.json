@@ -5,6 +5,158 @@
       "PackagePath": "staticwebassets\\QuanLyDangKyHocPhanSV.bundle.scp.css"
     },
     {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\.babelrc",
+      "PackagePath": "staticwebassets\\aos-master\\.babelrc"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\.editorconfig",
+      "PackagePath": "staticwebassets\\aos-master\\.editorconfig"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\.gitattributes",
+      "PackagePath": "staticwebassets\\aos-master\\.gitattributes"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\.gitignore",
+      "PackagePath": "staticwebassets\\aos-master\\.gitignore"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\.travis.yml",
+      "PackagePath": "staticwebassets\\aos-master\\.travis.yml"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\aos-master\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\CONTRIBUTING.md",
+      "PackagePath": "staticwebassets\\aos-master\\CONTRIBUTING.md"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\LICENSE",
+      "PackagePath": "staticwebassets\\aos-master"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\README.md",
+      "PackagePath": "staticwebassets\\aos-master\\README.md"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\bower.json",
+      "PackagePath": "staticwebassets\\aos-master\\bower.json"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\demo\\async.html",
+      "PackagePath": "staticwebassets\\aos-master\\demo\\async.html"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\demo\\css\\styles.css",
+      "PackagePath": "staticwebassets\\aos-master\\demo\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\demo\\simple.html",
+      "PackagePath": "staticwebassets\\aos-master\\demo\\simple.html"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\dist\\aos.css",
+      "PackagePath": "staticwebassets\\aos-master\\dist\\aos.css"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\dist\\aos.js",
+      "PackagePath": "staticwebassets\\aos-master\\dist\\aos.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\karma.conf.js",
+      "PackagePath": "staticwebassets\\aos-master\\karma.conf.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\package.json",
+      "PackagePath": "staticwebassets\\aos-master\\package.json"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\postcss.config.js",
+      "PackagePath": "staticwebassets\\aos-master\\postcss.config.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\aos.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\helpers\\calculateOffset.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\helpers\\calculateOffset.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\helpers\\detector.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\helpers\\detector.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\helpers\\elements.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\helpers\\elements.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\helpers\\handleScroll.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\helpers\\handleScroll.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\helpers\\prepare.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\helpers\\prepare.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\libs\\observer.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\libs\\observer.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\js\\libs\\offset.js",
+      "PackagePath": "staticwebassets\\aos-master\\src\\js\\libs\\offset.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\sass\\_animations.scss",
+      "PackagePath": "staticwebassets\\aos-master\\src\\sass\\_animations.scss"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\sass\\_core.scss",
+      "PackagePath": "staticwebassets\\aos-master\\src\\sass\\_core.scss"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\sass\\_easing.scss",
+      "PackagePath": "staticwebassets\\aos-master\\src\\sass\\_easing.scss"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\src\\sass\\aos.scss",
+      "PackagePath": "staticwebassets\\aos-master\\src\\sass\\aos.scss"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\test\\aos.spec.js",
+      "PackagePath": "staticwebassets\\aos-master\\test\\aos.spec.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\test\\calculateOffset.spec.js",
+      "PackagePath": "staticwebassets\\aos-master\\test\\calculateOffset.spec.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\test\\elements.spec.js",
+      "PackagePath": "staticwebassets\\aos-master\\test\\elements.spec.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\test\\fixtures\\aos-offset.fixture.html",
+      "PackagePath": "staticwebassets\\aos-master\\test\\fixtures\\aos-offset.fixture.html"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\test\\fixtures\\aos.fixture.html",
+      "PackagePath": "staticwebassets\\aos-master\\test\\fixtures\\aos.fixture.html"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\test\\index.js",
+      "PackagePath": "staticwebassets\\aos-master\\test\\index.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\webpack.config.js",
+      "PackagePath": "staticwebassets\\aos-master\\webpack.config.js"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\aos-master\\yarn.lock",
+      "PackagePath": "staticwebassets\\aos-master\\yarn.lock"
+    },
+    {
       "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -31,6 +183,22 @@
     {
       "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\bg.png",
       "PackagePath": "staticwebassets\\images\\bg.png"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\intro.jpg",
+      "PackagePath": "staticwebassets\\images\\intro.jpg"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\intro2.jpg",
+      "PackagePath": "staticwebassets\\images\\intro2.jpg"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\intro3.jpg",
+      "PackagePath": "staticwebassets\\images\\intro3.jpg"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\intro4.jpg",
+      "PackagePath": "staticwebassets\\images\\intro4.jpg"
     },
     {
       "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\logo.ico",

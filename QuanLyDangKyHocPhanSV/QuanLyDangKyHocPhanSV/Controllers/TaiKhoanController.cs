@@ -38,7 +38,31 @@ namespace QuanLyDangKyHocPhanSV.Controllers
                 return View("DangNhapUI");
             }
 
-            ViewBag.Email = Request.Cookies["UserEmail"];
+            var email = Request.Cookies["UserEmail"];
+            ViewBag.Email = email;
+
+            //// Truy xuất thông tin chi tiết của người dùng từ cơ sở dữ liệu
+            //var user = db.VThongTinDangNhaps.SingleOrDefault(u => u.EmailNguoiDung == email);
+            //if (user != null)
+            //{
+            //    ViewBag.HoTen = user.HoTen;
+            //    ViewBag.GioiTinh = user.GioiTinh;
+            //    ViewBag.NgaySinh = user.NgaySinh.ToString("dd/MM/yyyy");
+            //    ViewBag.DiaChi = user.DiaChi;
+            //    ViewBag.Khoa = user.Khoa;
+            //    ViewBag.Lop = user.Lop;
+            //}
+            //else if (email == "admin@gmail.com")
+            //{
+            //    // Đối với tài khoản admin
+            //    ViewBag.HoTen = "Admin";
+            //    ViewBag.GioiTinh = "N/A";
+            //    ViewBag.NgaySinh = "N/A";
+            //    ViewBag.DiaChi = "N/A";
+            //    ViewBag.Khoa = "N/A";
+            //    ViewBag.Lop = "N/A";
+            //}
+
             return View();
         }
 
