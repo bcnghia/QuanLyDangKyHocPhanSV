@@ -3,52 +3,68 @@
   "WorkspaceRootPath": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\taikhoan\\thongtintaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\taikhoan\\thongtintaikhoan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\controllers\\taikhoancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\data\\qldkhocphancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\data\\qldkhocphancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\taikhoan\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\taikhoan\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\models\\roleaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\models\\roleaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\home\\download.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\home\\download.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\quanlymonhoc\\monhoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\quanlymonhoc\\monhoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\areas\\admin\\views\\homeadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\taikhoan\\dangnhapui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\taikhoan\\dangnhapui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\quanlymonhoc\\dangkymonhoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\quanlymonhoc\\dangkymonhoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\wwwroot\\layoutadmin\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\wwwroot\\layoutadmin\\css\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\models\\roleaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\models\\roleaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\helpers\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\taikhoan\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\taikhoan\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\quanlydangkyhocphansv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\quanlymonhoc\\dangkymonhoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\quanlymonhoc\\dangkymonhoc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -69,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|d:\\github\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\quanlydangkyhocphansv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{74D84FD8-3426-4A08-BA05-758315B62000}|QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj|solutionrelative:quanlydangkyhocphansv\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,11 +94,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 347,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\wwwroot\\css\\site.css",
@@ -95,6 +107,20 @@
               "ViewState": "AQIAAGwBAAAAAAAAAAAmwHEBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-19T13:14:22.8Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\css\\StyleSheet.css",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\css\\StyleSheet.css",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\css\\StyleSheet.css",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\css\\StyleSheet.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-27T09:39:57.047Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -113,84 +139,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "QLDKHocPhanContext.cs",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Data\\QLDKHocPhanContext.cs",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Data\\QLDKHocPhanContext.cs",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Data\\QLDKHocPhanContext.cs",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Data\\QLDKHocPhanContext.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:35:16.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TaiKhoanController.cs",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Controllers\\TaiKhoanController.cs",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Controllers\\TaiKhoanController.cs",
               "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Controllers\\TaiKhoanController.cs",
               "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Controllers\\TaiKhoanController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAmwDUAAAAAAAAA",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAJQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-26T03:44:25.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADcAAAAAAAAAAAAswEUAAAAZAAAA",
+              "DocumentIndex": 2,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ResetPassword.cshtml",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ResetPassword.cshtml",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T05:21:50.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\HomeAdmin\\Index.cshtml",
-              "ViewState": "AQIAAKIAAAAAAAAAAAAAAMsAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T05:21:14.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T05:20:36.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MonHoc.cshtml",
-              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc\\MonHoc.cshtml",
-              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc\\MonHoc.cshtml",
-              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc\\MonHoc.cshtml",
-              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc\\MonHoc.cshtml",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFgAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T14:37:25.634Z",
+              "WhenOpened": "2024-07-27T15:20:07.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Models\\SinhVien.cs",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Models\\SinhVien.cs",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Models\\SinhVien.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T15:28:13.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailHelper.cs",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Helpers\\EmailHelper.cs",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Helpers\\EmailHelper.cs",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Helpers\\EmailHelper.cs",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Helpers\\EmailHelper.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAowBcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T14:43:05.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuenMatKhau.cshtml",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\QuenMatKhau.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T14:28:20.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Download.cshtml",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Home\\Download.cshtml",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\Home\\Download.cshtml",
               "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Home\\Download.cshtml",
               "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\Home\\Download.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-27T07:31:30.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Controllers\\HomeController.cs",
@@ -203,20 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThongTinTaiKhoan.cshtml",
-              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ThongTinTaiKhoan.cshtml",
-              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ThongTinTaiKhoan.cshtml",
-              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ThongTinTaiKhoan.cshtml",
-              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\ThongTinTaiKhoan.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAowCgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T04:23:06.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "RoleAccount.cs",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Models\\RoleAccount.cs",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Models\\RoleAccount.cs",
@@ -229,7 +255,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
+              "Title": "DangNhapUI.cshtml",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwCwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T05:29:10.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\appsettings.json",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\appsettings.json",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\appsettings.json",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-25T01:21:20.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuanLyDangKyHocPhanSV",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-27T14:42:15.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T09:40:11.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "DangKyMonHoc.cshtml",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc\\DangKyMonHoc.cshtml",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc\\DangKyMonHoc.cshtml",
@@ -242,20 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DangNhapUI.cshtml",
-              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
-              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
-              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
-              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\TaiKhoan\\DangNhapUI.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T05:29:10.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "DangKyMonHocController.cs",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Controllers\\DangKyMonHocController.cs",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Controllers\\DangKyMonHocController.cs",
@@ -268,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "EditGiangVien.cshtml",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\HomeAdmin\\EditGiangVien.cshtml",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Areas\\Admin\\Views\\HomeAdmin\\EditGiangVien.cshtml",
@@ -281,20 +346,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "QuanLyDangKyHocPhanSV\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAIBJwAQAAAATAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAIBZwAQAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-25T11:31:40.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\Home\\Privacy.cshtml",
@@ -307,20 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\appsettings.json",
-              "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\appsettings.json",
-              "ToolTip": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\appsettings.json",
-              "RelativeToolTip": "QuanLyDangKyHocPhanSV\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-25T01:21:20.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "QuanLyDangKyHocPhanSV\\Views\\_ViewStart.cshtml",

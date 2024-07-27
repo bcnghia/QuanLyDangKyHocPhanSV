@@ -36,7 +36,7 @@
                                         Remember me
                                     </label>
                                 </div>
-                                <a href="#!" class="text-body">Forgot password?</a>
+                                <a asp-controller="TaiKhoan" asp-action="QuenMatKhau" class="text-body">Quên mật khẩu?</a>
                             </div>
 
                             @if (ViewBag.ErrorMessage != null)
@@ -52,8 +52,7 @@
                                     Login
                                 </button>
                                 <p class="small fw-bold mt-2 pt-1 mb-0">
-                                    Don't have an account? <a href="#!"
-                                                              class="link-danger">Register</a>
+                                    Don't have an account? <a href="#!" class="link-danger">Register</a>
                                 </p>
                             </div>
                         </form>

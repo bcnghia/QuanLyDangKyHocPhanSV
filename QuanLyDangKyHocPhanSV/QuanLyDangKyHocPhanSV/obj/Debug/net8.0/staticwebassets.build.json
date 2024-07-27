@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EPbYPRzLBEBsOdolHvMwOrw88c7yaf+j8/0/iNotgnk=",
+  "Hash": "YMBSAtA8TUhaVvNAsxVVPymOhy9wDZIvI0RyF9Xj6to=",
   "Source": "QuanLyDangKyHocPhanSV",
   "BasePath": "_content/QuanLyDangKyHocPhanSV",
   "Mode": "Default",
@@ -1269,6 +1269,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\LayoutAdmin\\css\\styles.css"
+    },
+    {
+      "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\css\\StyleSheet.css",
+      "SourceId": "QuanLyDangKyHocPhanSV",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\",
+      "BasePath": "_content/QuanLyDangKyHocPhanSV",
+      "RelativePath": "LayoutAdmin/css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\LayoutAdmin\\css\\StyleSheet.css"
     },
     {
       "Identity": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\LayoutAdmin\\js\\datatables-simple-demo.js",
