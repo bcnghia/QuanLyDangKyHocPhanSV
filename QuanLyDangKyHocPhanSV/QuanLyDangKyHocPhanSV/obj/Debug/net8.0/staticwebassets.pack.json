@@ -237,6 +237,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\files\\Phan Mem Dang Ky Mon Hoc.msi",
+      "PackagePath": "staticwebassets\\files\\Phan Mem Dang Ky Mon Hoc.msi"
+    },
+    {
+      "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\files\\setup.exe",
+      "PackagePath": "staticwebassets\\files\\setup.exe"
+    },
+    {
       "Id": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\images\\banner.jpg",
       "PackagePath": "staticwebassets\\images\\banner.jpg"
     },

@@ -23,10 +23,23 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             return View();
         }
 
+        public IActionResult Download()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult DownloadSetup()
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/files/setup.exe");
+            var fileBytes = System.IO.File.ReadAllBytes(filePath);
+            var fileName = "setup.exe";
+            return File(fileBytes, "application/octet-stream", fileName);
         }
     }
 }
