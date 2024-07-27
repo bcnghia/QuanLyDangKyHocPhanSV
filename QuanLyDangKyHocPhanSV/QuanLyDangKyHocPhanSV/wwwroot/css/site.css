@@ -282,3 +282,60 @@ body {
     color: ghostwhite !important;
 }
 
+/*QUản lý tài khoản giảng viên*/
+.Hang {
+    display:flex;
+    
+}
+.headql {
+    width: 621px;
+    height: 588px;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    overflow-x: auto; /*thanh cuộn*/
+    overflow-y: hidden;
+    gap :50px;
+}
+
+.tb {
+    width: 190%; /* Chiều rộng của bảng */
+    table-layout: fixed; /* Bảng có chiều rộng cố định */
+   
+}
+.tb, th, td {
+    border: 3px solid lightsteelblue;
+    
+}
+.headql1 {
+  
+
+    display:flex;
+}
+.infor {
+    margin-left: 80px;
+    font-size: 18px;
+    color: lightsteelblue;
+   
+    
+}
+.infor input {
+        border-radius: 4px;
+        border: 2px solid lightsteelblue;
+    }
+
+.bu {
+    display: flex;
+    gap: 40px; /* Khoảng cách giữa các nút */
+    padding-top:20px   ;
+}
+
+    .bu button {
+        width:80px;
+        height:40px;
+        color: white;
+        border: 2px ;
+        border-radius: 4px;
+    } 
+
+
