@@ -10,6 +10,21 @@ INSERT INTO RoleAccount (TenRole) VALUES ('student');
 INSERT INTO RoleAccount (TenRole) VALUES ('teacher');
 INSERT INTO RoleAccount (TenRole) VALUES ('admin');
 
+/* Thêm dữ liệu cho RoleAccount */
+select * from GiaoVu
+UPDATE GiaoVu
+SET RoleAccount = 'admin';
+
+select * from GiangVien
+UPDATE GiangVien
+SET RoleAccount = 'teacher';
+
+select * from tblSinhVien
+UPDATE tblSinhVien
+SET RoleAccount = 'student';
+
+
+
 -- Thêm GIÁO VỤ - ADMIN -- sử dụng ký tự AD
 INSERT INTO GiaoVu (MaGiaoVu, TenGiaoVu, NgaySinh, GioiTinh, Email, MatKhau, RoleAccount) 
 VALUES 

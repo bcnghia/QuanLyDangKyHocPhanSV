@@ -33,11 +33,19 @@
                         </li>
 
 
-                        @if (Context.Request.Cookies["IsLoggedIn"] == "true")
+                        @if (Context.Request.Cookies["IsLoggedIn"] == "true") // Hiển thị chức năng khi đăng nhập
                         {
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Môn học</a>
                             </li>
+
+                            @if (Context.Request.Cookies["Role"] == "admin") // Hiển thị chức năng "Quản lý" nếu role là admin
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="HomeAdmin" asp-action="Index">Quản lý</a>
+                                </li>
+                            }
+
                             @* Sau này sẽ xóa code này
                                 <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -60,6 +68,8 @@
                                 </ul>
                         </li>*@
                         }
+
+                        
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Giới thiệu</a>
                         </li>

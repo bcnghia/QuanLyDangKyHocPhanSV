@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using QuanLyDangKyHocPhanSV.Data;
 using QuanLyDangKyHocPhanSV.Models;
+using System.Data;
 
 namespace QuanLyDangKyHocPhanSV.Controllers
 {
@@ -12,20 +13,39 @@ namespace QuanLyDangKyHocPhanSV.Controllers
         [HttpPost]
         public IActionResult TaiKhoan(string email, string password)
         {
-            var user = db.VThongTinDangNhaps.SingleOrDefault(u => u.EmailNguoiDung == email && u.MatKhau == password);
-
-            if (user != null || (email == "admin@gmail.com" && password == "123"))
+            if (email == "admin@gmail.com" && password == "123")
             {
+                // Đăng nhập admin
                 CookieOptions option = new CookieOptions
                 {
                     Expires = DateTime.Now.AddMinutes(5) // 5 phút xóa cookie web và thoát đăng nhập
                 };
+
                 Response.Cookies.Append("UserEmail", email, option);
                 Response.Cookies.Append("IsLoggedIn", "true", option);
-                Response.Cookies.Append("Role", value: user.RoleAccount);
+                Response.Cookies.Append("Role", "admin", option);
 
                 ViewBag.Email = email;
                 return RedirectToAction("ThongTinTaiKhoan");
+            }
+            else
+            {
+                var user = db.VThongTinDangNhaps.SingleOrDefault(u => u.EmailNguoiDung == email && u.MatKhau == password);
+
+                if (user != null)
+                {
+                    CookieOptions option = new CookieOptions
+                    {
+                        Expires = DateTime.Now.AddMinutes(5) // 5 phút xóa cookie web và thoát đăng nhập
+                    };
+
+                    Response.Cookies.Append("UserEmail", email, option);
+                    Response.Cookies.Append("IsLoggedIn", "true", option);
+                    Response.Cookies.Append("Role", user.RoleAccount, option);
+
+                    ViewBag.Email = email;
+                    return RedirectToAction("ThongTinTaiKhoan");
+                }
             }
 
             ViewBag.ErrorMessage = "Email hoặc mật khẩu không đúng.";
@@ -40,6 +60,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             }
 
             var email = Request.Cookies["UserEmail"];
+            var role = Request.Cookies["Role"];
             ViewBag.Email = email;
 
             //// Truy xuất thông tin chi tiết của người dùng từ cơ sở dữ liệu
@@ -72,6 +93,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             // Xóa cookies đăng nhập
             Response.Cookies.Delete("UserEmail");
             Response.Cookies.Delete("IsLoggedIn");
+            Response.Cookies.Delete("Role");
 
             // Điều hướng về trang đăng nhập
             return View("DangNhapUI");
