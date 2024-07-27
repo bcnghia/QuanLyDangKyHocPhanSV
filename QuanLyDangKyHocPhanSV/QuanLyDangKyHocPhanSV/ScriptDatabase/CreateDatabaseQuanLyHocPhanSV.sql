@@ -102,7 +102,7 @@ AS
 		MatKhau, 
 		RoleAccount 
 	FROM 
-		tblSinhVien
+		SinhVien
 UNION ALL
 	SELECT 
 		Email AS EmailNguoiDung, 
