@@ -4,12 +4,12 @@
 <table class="table table-bordered page-content">
     <thead>
         <tr>
-            <th>Id môn học</th>
-            <th>tên môn học</th>
-            <th>số tín chỉ</th>
-            <th>số tiết</th>
-            <th>thời khóa biểu</th>
-            <th>Đăng ký môn</th>
+            <th>Id Môn Học</th>
+            <th>Tên Môn Học</th>
+            <th>Số Tín Chỉ</th>
+            <th>Số Tiết</th>
+            <th>Thời Khóa Biểu</th>
+            <th>Đăng Ký Môn</th>
         </tr>
     </thead>
     <tbody>
@@ -17,11 +17,11 @@
         @foreach (var monHoc in Model)
         {
             <tr>
-                <td>@monHoc.MaMh</td>
-                <td>@monHoc.TenMh</td>
-                <td>@monHoc.SoTinChi</td>
-                <td>@monHoc.SoTiet</td>
-                <td>@monHoc.ThoiKhoaBieu</td>
+                <td class="maMh">@monHoc.MaMh</td>
+                <td class="tenMh">@monHoc.TenMh</td>
+                <td class="soTinChi">@monHoc.SoTinChi</td>
+                <td class="soTiet">@monHoc.SoTiet</td>
+                <td class="thoiKhoaBieu">@monHoc.ThoiKhoaBieu</td>
                 <td>
                     <div class="dangkymon form-check">
                         <input class="form-check-input bg-danger" type="checkbox" value="" id="defaultCheck1">
@@ -31,8 +31,72 @@
         }
     </tbody>
 </table>
+
+<!-- Hiển thị môn học đã chọn -->
+<div class="text-center">
+    <h1>DANH SÁCH MÔN HỌC ĐÃ ĐĂNG KÝ</h1>
+</div>
+<table class="table table-bordered page-content" id="selectedCoursesTable">
+    <thead>
+        <tr>
+            <th>Id Môn Học</th>
+            <th>Tên Môn Học</th>
+            <th>Số Tín Chỉ</th>
+            <th>Số Tiết</th>
+            <th>Thời Khóa Biểu</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Xuất hiện ở đây -->
+    </tbody>
+</table>
+
 <div class="xulydangkymonhoc">
     <button type="button" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>
     <button type="button" class="btn btn-outline-warning">In Danh Sách Môn</button>
 </div>
 
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.form-check-input').change(function() {
+                var row = $(this).closest('tr');
+                var maMh = row.find('.maMh').text();
+                var tenMh = row.find('.tenMh').text();
+                var soTinChi = row.find('.soTinChi').text();
+                var soTiet = row.find('.soTiet').text();
+                var thoiKhoaBieu = row.find('.thoiKhoaBieu').text();
+
+                if (this.checked) {
+                    // Add the selected course to the bottom table
+                    $('#selectedCoursesTable tbody').append(`
+                        <tr>
+                            <td>${maMh}</td>
+                            <td>${tenMh}</td>
+                            <td>${soTinChi}</td>
+                            <td>${soTiet}</td>
+                            <td>${thoiKhoaBieu}</td>
+                        </tr>
+                    `);
+                } else {
+                    // Xóa môn học ở bảng dưới
+                    $('#selectedCoursesTable tbody tr').filter(function() {
+                        return $(this).find('td:first').text() === maMh;
+                    }).remove();
+                }
+            });
+        });
+
+        function removeCourse(button) {
+            var row = $(button).closest('tr');
+            var maMh = row.find('td:first').text();
+            row.remove();
+
+            // Bỏ chọn
+            $('.maMh').filter(function() {
+                return $(this).text() === maMh;
+            }).closest('tr').find('.form-check-input').prop('checked', false);
+        }
+    </script>
+}
