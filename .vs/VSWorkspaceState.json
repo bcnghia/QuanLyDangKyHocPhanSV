@@ -3,12 +3,13 @@
     "",
     "\\QuanLyDangKyHocPhanSV",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV",
+    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Data",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Models",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css"
   ],
-  "SelectedNode": "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Models\\VThongTinDangKyMonHoc.cs",
+  "SelectedNode": "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Data\\QLDKHocPhanContext.cs",
   "PreviewInSolutionExplorer": false
 }
