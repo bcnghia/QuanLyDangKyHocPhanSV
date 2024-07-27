@@ -7,7 +7,7 @@
 }
 
 <h3>DashBoard môn học</h3>
-
+<h6>@TempData["Message"]</h6>
 <p>
     <a asp-action="ThemMonHoc">Create New</a>
 </p>
@@ -52,8 +52,8 @@
             </td>
             <td>
                 <a asp-action="EditMonHoc" asp-route-maMH="@item.MaMh">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaMh">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaMh">Delete</a>
+                @* <a asp-action="Details" asp-route-id="@item.MaMh">Details</a> | *@
+                <a asp-action="XoaMonHoc" asp-route-maMH="@item.MaMh">Delete</a>
             </td>
         </tr>
 }

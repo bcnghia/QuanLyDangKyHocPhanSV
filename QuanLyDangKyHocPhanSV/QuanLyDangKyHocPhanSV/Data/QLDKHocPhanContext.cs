@@ -253,6 +253,9 @@ public partial class QLDKHocPhanContext : DbContext
             entity.Property(e => e.EmailNguoiDung)
                 .HasMaxLength(50)
                 .IsUnicode(false);
+            entity.Property(e => e.Id)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.MatKhau)
                 .HasMaxLength(50)
                 .IsUnicode(false);

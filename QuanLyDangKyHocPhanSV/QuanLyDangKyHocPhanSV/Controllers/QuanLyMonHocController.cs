@@ -19,42 +19,28 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             return View(lstMonHoc);
         }
 
-        [Route("ThemMonHoc")]
-        [HttpGet]
-        public IActionResult ThemMonHoc()
-        {
-            return View();
-        }
-        [Route("ThemMonHoc")]
+        [Route("ListDangKyMonHoc")]
         [HttpPost]
-        public IActionResult ThemMonHoc(MonHoc monHoc)
+        [ValidateAntiForgeryToken]
+        public IActionResult ListDangKyMonHoc(List<string> maMH, string maSV)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                db.MonHocs.Add(monHoc);
+                foreach (var ma in maMH)
+                {
+                    var dangKyMonHoc = new DangKyMonHoc
+                    {
+                        MaMh = ma,
+                        MaSv = maSV,
+                        ThoiGianDangKy = DateTime.Now
+                    };
+                    db.DangKyMonHocs.Add(dangKyMonHoc);
+                }
+
                 db.SaveChanges();
                 return RedirectToAction("MonHoc");
             }
-            return View(monHoc);
-        }
 
-        public IActionResult ListDangKyMonHoc()
-        {
-            return View();
-        }
-
-        public IActionResult Edit()
-        {
-            return View();
-        }
-
-        public IActionResult Delete()
-        {
-            return View();
-        }
-
-        public IActionResult DangKy()
-        {
             return View();
         }
     }

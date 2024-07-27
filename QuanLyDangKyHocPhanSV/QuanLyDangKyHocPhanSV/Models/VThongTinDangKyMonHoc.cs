@@ -6,9 +6,9 @@ namespace QuanLyDangKyHocPhanSV.Models;
 public partial class VThongTinDangKyMonHoc
 {
 	// Chổ mới thêm để gọi vào DangKyMonHocController 
-	public string MaLop { get; set; }
-	public string MaGV { get; set; }
-	public string TenGV { get; set; }
+	//public string MaLop { get; set; }
+	//public string MaGV { get; set; }
+	//public string TenGV { get; set; }
 	public int SoTiet { get; set; }
 	public int SoTinChi { get; set; } 
 

@@ -7,7 +7,7 @@
 }
 
 <h3 id="title" class="text-center fw-bold">Tài Khoản Giảng Viên</h3>
-
+<h6>@TempData["Message"]</h6>
 <p>
     <a asp-action="ThemGiangVien">Create New</a>
 </p>
@@ -80,8 +80,8 @@
             </td>
             <td>
                 <a asp-action="EditGiangVien" asp-route-maGV="@item.MaGv">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaGv">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaGv">Delete</a>
+                @* <a asp-action="Details" asp-route-id="@item.MaGv">Details</a> | *@
+                <a asp-action="XoaGiangVien" asp-route-maGV="@item.MaGv">Delete</a>
             </td>
         </tr>
 }

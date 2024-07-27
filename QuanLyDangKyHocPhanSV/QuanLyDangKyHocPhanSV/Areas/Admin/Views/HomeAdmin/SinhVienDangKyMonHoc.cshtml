@@ -1,4 +1,5 @@
-﻿@using QuanLyDangKyHocPhanSV.Models
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using QuanLyDangKyHocPhanSV.Models
 @* @model IEnumerable<QuanLyDangKyHocPhanSV.Models.SinhVien>
  *@
 
@@ -9,7 +10,7 @@
 }
 
 <h3>DashBoard sinh viên đăng ký môn học</h3>
-
+<h6>@TempData["Message"]</h6>
 <table class="table" id="datatablesSimple">
     <thead>
         <tr>
@@ -64,10 +65,10 @@
                 </td>
                 <td>
                     @* <a asp-action="Details" asp-route-id="@item.MaSv">Details</a> | *@
-                    <a asp-action="Delete" asp-route-id="@item.MaSV">Delete</a>
+                    <a asp-action="XoaDangKyMon" asp-route-maSV="@item.MaSV" asp-route-maMH="@item.MaMH">Delete</a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
-<script src="~/LayoutAdmin/js/datatables-simple-demo.js"></script>
+<script src="~/LayoutAdmin/js/datatables-simple-demo.js"></script> 

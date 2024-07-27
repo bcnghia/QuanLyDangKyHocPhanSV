@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using QuanLyDangKyHocPhanSV.Data;
 using QuanLyDangKyHocPhanSV.Models;
+using System;
 
 namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
 {
@@ -243,5 +244,76 @@ namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
         }
         #endregion
 
+        #region XÓA ĐỐI TƯỢNG - CẦN ĐỌC HƯỚNG DẪN SỬ DỤNG
+        // Chức năng Xóa - Delete có thể sẽ xóa đối tượng riêng lẻ được
+        // Nhưng nếu đối tượng có liên kết với các Database, bảng, trường dữ liệu khác sẽ sinh ra lỗi khi xóa
+        // Cần phải thỏa yêu cầu cơ bản ràng buộc dữ liệu giữa các bảng với nhau
+        [Route("XoaDangKyMon")]
+        [HttpGet]
+        public IActionResult XoaDangKyMon(string maSV, string maMH)
+        {
+            var dangKyMonHoc = db.DangKyMonHocs.FirstOrDefault(x => x.MaSv == maSV && x.MaMh == maMH);
+            db.DangKyMonHocs.Remove(dangKyMonHoc);
+            db.SaveChanges();
+            TempData["Message"] = "Đã xóa đăng ký môn";
+            return RedirectToAction("SinhVienDangKyMonHoc", "HomeAdmin");
+        }
+
+        [Route("XoaGiangVien")]
+        [HttpGet]
+        public IActionResult XoaGiangVien(string maGV)
+        {
+            var giangVien = db.GiangViens.FirstOrDefault(x => x.MaGv == maGV);
+            db.GiangViens.Remove(giangVien);
+            db.SaveChanges();
+            TempData["Message"] = "Đã xóa giảng viên";
+            return RedirectToAction("GiangVien", "HomeAdmin");
+        }
+
+        [Route("XoaSinhVien")]
+        [HttpGet]
+        public IActionResult XoaSinhVien(string maSV)
+        {
+            var dangKyMonHocs = db.DangKyMonHocs.Where(x => x.MaSv == maSV).ToList();
+            if (dangKyMonHocs.Count > 0)
+            {
+                TempData["Message"] = "Không xóa được sinh viên này do có dữ liệu ràng buộc, vui lòng thử lại sau.";
+                return RedirectToAction("SinhVien", "HomeAdmin");
+            }
+            var sinhVien = db.SinhViens.FirstOrDefault(x => x.MaSv == maSV);
+            db.SinhViens.Remove(sinhVien);
+            db.SaveChanges();
+            TempData["Message"] = "Đã xóa sinh viên";
+            return RedirectToAction("SinhVien", "HomeAdmin");
+        }
+
+        [Route("XoaGiaoVu")]
+        [HttpGet]
+        public IActionResult XoaGiaoVu(string maGiaoVu)
+        {
+            var giaoVu = db.GiaoVus.FirstOrDefault(x => x.MaGiaoVu == maGiaoVu);
+            db.GiaoVus.Remove(giaoVu);
+            db.SaveChanges();
+            TempData["Message"] = "Đã xóa giáo vụ";
+            return RedirectToAction("GiaoVu", "HomeAdmin");
+        }
+
+        [Route("XoaMonHoc")]
+        [HttpGet]
+        public IActionResult XoaMonHoc(string maMH)
+        {
+            var dangKyMonHocs = db.DangKyMonHocs.Where(x => x.MaMh == maMH).ToList();
+            if (dangKyMonHocs.Count > 0)
+            {
+                TempData["Message"] = "Không xóa được môn học này do có dữ liệu ràng buộc, vui lòng thử lại sau.";
+                return RedirectToAction("DanhSachMonHoc", "HomeAdmin");
+            }
+            var monHoc = db.MonHocs.FirstOrDefault(x => x.MaMh == maMH);
+            db.MonHocs.Remove(monHoc);
+            db.SaveChanges();
+            TempData["Message"] = "Đã xóa môn học";
+            return RedirectToAction("DanhSachMonHoc", "HomeAdmin");
+        }
+        #endregion
     }
 }

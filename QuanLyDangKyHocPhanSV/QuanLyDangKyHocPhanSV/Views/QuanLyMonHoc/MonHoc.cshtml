@@ -1,60 +1,66 @@
-﻿<div class="text-center">
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="text-center">
     <h1> ĐĂNG KÝ MÔN HỌC</h1>
 </div>
-<table class="table table-bordered page-content">
-    <thead>
-        <tr>
-            <th>Id Môn Học</th>
-            <th>Tên Môn Học</th>
-            <th>Số Tín Chỉ</th>
-            <th>Số Tiết</th>
-            <th>Thời Khóa Biểu</th>
-            <th>Đăng Ký Môn</th>
-        </tr>
-    </thead>
-    <tbody>
-        @model List<MonHoc>
-        @foreach (var monHoc in Model)
-        {
+<form id="courseForm" asp-controller="QuanLyMonHoc" asp-action="ListDangKyMonHoc" method="post">
+    @Html.AntiForgeryToken()
+    <table class="table table-bordered page-content">
+        <thead>
             <tr>
-                <td class="maMh">@monHoc.MaMh</td>
-                <td class="tenMh">@monHoc.TenMh</td>
-                <td class="soTinChi">@monHoc.SoTinChi</td>
-                <td class="soTiet">@monHoc.SoTiet</td>
-                <td class="thoiKhoaBieu">@monHoc.ThoiKhoaBieu</td>
-                <td>
-                    <div class="dangkymon form-check">
-                        <input class="form-check-input bg-danger" type="checkbox" value="" id="defaultCheck1">
-                    </div>
-                </td>
+                <th>Id Môn Học</th>
+                <th>Tên Môn Học</th>
+                <th>Số Tín Chỉ</th>
+                <th>Số Tiết</th>
+                <th>Thời Khóa Biểu</th>
+                <th>Đăng Ký Môn</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @model List<MonHoc>
+            @foreach (var monHoc in Model)
+            {
+                <tr>
+                    <td class="maMh">@monHoc.MaMh</td>
+                    <td class="tenMh">@monHoc.TenMh</td>
+                    <td class="soTinChi">@monHoc.SoTinChi</td>
+                    <td class="soTiet">@monHoc.SoTiet</td>
+                    <td class="thoiKhoaBieu">@monHoc.ThoiKhoaBieu</td>
+                    <td>
+                        <div class="dangkymon form-check">
+                            <input class="form-check-input bg-danger" type="checkbox" value="@monHoc.MaMh" name="maMH">
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 
-<!-- Hiển thị môn học đã chọn -->
-<div class="text-center">
-    <h1>DANH SÁCH MÔN HỌC ĐÃ ĐĂNG KÝ</h1>
-</div>
-<table class="table table-bordered page-content" id="selectedCoursesTable">
-    <thead>
-        <tr>
-            <th>Id Môn Học</th>
-            <th>Tên Môn Học</th>
-            <th>Số Tín Chỉ</th>
-            <th>Số Tiết</th>
-            <th>Thời Khóa Biểu</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Xuất hiện ở đây -->
-    </tbody>
-</table>
+    <!-- Hiển thị môn học đã chọn -->
+    <div class="text-center">
+        <h1>DANH SÁCH MÔN HỌC ĐÃ ĐĂNG KÝ</h1>
+    </div>
+    <table class="table table-bordered page-content" id="selectedCoursesTable">
+        <thead>
+            <tr>
+                <th>Id Môn Học</th>
+                <th>Tên Môn Học</th>
+                <th>Số Tín Chỉ</th>
+                <th>Số Tiết</th>
+                <th>Thời Khóa Biểu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Xuất hiện ở đây -->
+        </tbody>
+    </table>
 
-<div class="xulydangkymonhoc">
-    <button type="button" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>
-    <button type="button" class="btn btn-outline-warning">In Danh Sách Môn</button>
-</div>
+    <input type="hidden" name="maSV" value="@Context.Request.Cookies["Id"]">
+
+    <div class="xulydangkymonhoc">
+        <button type="submit" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>
+        <button type="button" class="btn btn-outline-warning">In Danh Sách Môn</button>
+    </div>
+</form>
 
 @section Scripts {
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
