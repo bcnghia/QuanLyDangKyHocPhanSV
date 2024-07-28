@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using QuanLyDangKyHocPhanSV.Data;
 using QuanLyDangKyHocPhanSV.Models;
+using QuanLyDangKyHocPhanSV.Models.Authentication;
 using System;
 
 namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
 {
     [Area("admin")]
+    [Authentication]
     [Route("admin")]
     [Route("admin/homeadmin")]
     public class HomeAdminController : Controller

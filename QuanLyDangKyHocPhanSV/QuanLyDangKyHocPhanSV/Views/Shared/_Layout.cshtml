@@ -33,13 +33,13 @@
                         </li>
 
 
-                        @if (Context.Request.Cookies["IsLoggedIn"] == "true") // Hiển thị chức năng khi đăng nhập
+                        @if (Context.Session.GetString("IsLoggedIn") == "true") // Hiển thị chức năng khi đăng nhập
                         {
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Môn học</a>
                             </li>
 
-                            @if (Context.Request.Cookies["Role"] == "admin") // Hiển thị chức năng "Quản lý" nếu role là admin
+                            @if (Context.Session.GetString("Role") == "admin") // Hiển thị chức năng "Quản lý" nếu role là admin
                             {
                                 <li class="nav-item">
                                     <a class="nav-link" asp-area="Admin" asp-controller="HomeAdmin" asp-action="Index">Quản lý</a>
