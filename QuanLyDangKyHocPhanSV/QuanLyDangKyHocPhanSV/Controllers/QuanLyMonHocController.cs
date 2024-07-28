@@ -31,6 +31,9 @@ namespace QuanLyDangKyHocPhanSV.Controllers
         {
             if (ModelState.IsValid)
             {
+                var dangKyMonHocCu = db.DangKyMonHocs.Where(x => x.MaSv == maSV).ToList();
+                db.DangKyMonHocs.RemoveRange(dangKyMonHocCu);
+                db.SaveChanges();
                 foreach (var ma in maMH)
                 {
                     var dangKyMonHoc = new DangKyMonHoc
