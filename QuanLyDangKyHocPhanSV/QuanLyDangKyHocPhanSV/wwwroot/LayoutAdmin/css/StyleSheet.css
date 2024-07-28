@@ -8,3 +8,22 @@
 }
 
 
+.sb-sidenav .sb-sidenav-menu {
+    background: linear-gradient(to bottom, #1da1f5, #8039da);
+}
+
+.styled-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ff0000; /* Chữ đỏ */
+    text-shadow: 2px 2px #fafafa, /* Viền trắng */
+    -2px -2px #fafafa, 2px -2px #fafafa, -2px 2px #fafafa, 0px 0px 3px #000;
+}
+
+.styled-subheading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff000; /* Chữ vàng */
+    text-shadow: 2px 2px #ff0000, /* Viền đỏ */
+    -2px -2px #ff0000, 2px -2px #ff0000, -2px 2px #ff0000, 0px 0px 3px #000;
+}
