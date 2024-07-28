@@ -12,11 +12,16 @@ namespace QuanLyDangKyHocPhanSV.Controllers
         {
             _logger = logger;
         }
+
+        [Route("MonHoc")]
+        [HttpGet]
         public IActionResult MonHoc()
         {
-            var lstMonHoc = db.MonHocs.ToList();
+            var lstDangKyMonHoc = db.DangKyMonHocs.Where(x => x.MaSv == Request.Cookies["Id"]).ToList();
+            ViewBag.DangKyMonHocs = lstDangKyMonHoc;
+            ViewBag.MonHocs = db.MonHocs.ToList();
 
-            return View(lstMonHoc);
+            return View();
         }
 
         [Route("ListDangKyMonHoc")]

@@ -1,4 +1,10 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    var monHocs = ViewBag.MonHocs as List<MonHoc>;
+    var dangKyMonHocs = ViewBag.DangKyMonHocs as List<DangKyMonHoc>;
+    var registeredCourseIds = dangKyMonHocs.Select(d => d.MaMh).ToList();
+
+}
 <div class="text-center">
     <h1> ĐĂNG KÝ MÔN HỌC</h1>
 </div>
@@ -16,9 +22,9 @@
             </tr>
         </thead>
         <tbody>
-            @model List<MonHoc>
-            @foreach (var monHoc in Model)
+            @foreach (var monHoc in monHocs)
             {
+                bool isChecked = registeredCourseIds.Contains(monHoc.MaMh);
                 <tr>
                     <td class="maMh">@monHoc.MaMh</td>
                     <td class="tenMh">@monHoc.TenMh</td>
@@ -27,7 +33,7 @@
                     <td class="thoiKhoaBieu">@monHoc.ThoiKhoaBieu</td>
                     <td>
                         <div class="dangkymon form-check">
-                            <input class="form-check-input bg-danger" type="checkbox" value="@monHoc.MaMh" name="maMH">
+                            <input class="form-check-input bg-danger" type="checkbox" value="@monHoc.MaMh" name="maMH" @(isChecked ? "checked" : "")>
                         </div>
                     </td>
                 </tr>
@@ -66,6 +72,25 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
+            // Thêm các môn học đã chọn vào bảng khi trang được tải
+            $('.form-check-input:checked').each(function () {
+                var row = $(this).closest('tr');
+                var maMh = row.find('.maMh').text();
+                var tenMh = row.find('.tenMh').text();
+                var soTinChi = row.find('.soTinChi').text();
+                var soTiet = row.find('.soTiet').text();
+                var thoiKhoaBieu = row.find('.thoiKhoaBieu').text();
+
+                $('#selectedCoursesTable tbody').append(`
+                            <tr>
+                                <td>${maMh}</td>
+                                <td>${tenMh}</td>
+                                <td>${soTinChi}</td>
+                                <td>${soTiet}</td>
+                                <td>${thoiKhoaBieu}</td>
+                            </tr>
+                        `);
+            });
             $('.form-check-input').change(function() {
                 var row = $(this).closest('tr');
                 var maMh = row.find('.maMh').text();

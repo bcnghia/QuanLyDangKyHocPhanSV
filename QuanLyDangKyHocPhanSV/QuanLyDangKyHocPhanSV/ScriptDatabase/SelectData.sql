@@ -19,10 +19,12 @@ Select * From Lop;
 DROP VIEW VThongTinDangNhap;
 DROP VIEW VThongTinDangKyMonHoc;
 
+DELETE FROM DangKyMonHoc;
+DELETE FROM Lop;
 DELETE FROM GiaoVu;
 DELETE FROM GiangVien;
 DELETE FROM SinhVien;
 DELETE FROM MonHoc;
-DELETE FROM DangKyMonHoc;
-DELETE FROM Lop;
+DELETE FROM RoleAccount;
+
 
