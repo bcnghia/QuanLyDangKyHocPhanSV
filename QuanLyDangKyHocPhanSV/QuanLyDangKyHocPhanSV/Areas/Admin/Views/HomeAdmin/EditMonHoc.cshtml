@@ -20,12 +20,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="SoTiet" class="control-label">Số tiết</label>
-                <input asp-for="SoTiet" class="form-control" />
+                <input asp-for="SoTiet" class="form-control" type="number" min="1" max="120" />
                 <span asp-validation-for="SoTiet" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="SoTinChi" class="control-label">Số tín chỉ</label>
-                <input asp-for="SoTinChi" class="form-control" />
+                <input asp-for="SoTinChi" class="form-control" type="number" min="1" max="5" />
                 <span asp-validation-for="SoTinChi" class="text-danger"></span>
             </div>
             <div class="form-group">

@@ -46,6 +46,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
                 }
 
                 db.SaveChanges();
+                TempData["Message"] = "Đã lưu đăng ký môn";
                 return RedirectToAction("MonHoc");
             }
 

@@ -7,6 +7,7 @@
 }
 <div class="text-center">
     <h1> ĐĂNG KÝ MÔN HỌC</h1>
+    <p class="page-content">@TempData["Message"]</p>
 </div>
 <form id="courseForm" asp-controller="QuanLyMonHoc" asp-action="ListDangKyMonHoc" method="post">
     @Html.AntiForgeryToken()
