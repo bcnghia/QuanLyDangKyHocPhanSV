@@ -1,38 +1,72 @@
-﻿@{
-    ViewData["Title"] = "Thông tin tài khoản";
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    var role = Context.Session.GetString("Role");
+    var thongTinTaiKhoan = ViewBag.ThongTinTaiKhoan;
 }
-
 <div class="mt-5">
     <div class="row">
         <!-- Cột thông tin sinh viên -->
         <div class="container">
             <div class="thongtinsv page-content p-5 rounded">
-                <div class="text-center mb-4">
-                    <h1 class="display-4">Thông tin sinh viên</h1>
-                </div>
-                <div class="mb-4">
-                    <h5>Họ và tên:</h5>
-                    <p class="text-warning">@ViewBag.HoTen</p>
-                </div>
+                @if (role == "student")
+                {
+                    <div class="text-center mb-4">
+                        <h1 class="display-4">Thông tin sinh viên</h1>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Họ và tên:</h5>
+                        <p class="text-warning">@thongTinTaiKhoan.TenSv</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Khoa:</h5>
+                        <p class="text-warning">@thongTinTaiKhoan.Khoa</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Lớp:</h5>
+                        <p class="text-warning">@thongTinTaiKhoan.Lop</p>
+                    </div>
+                }
+                else if (role == "teacher")
+                {
+                    <div class="text-center mb-4">
+                        <h1 class="display-4">Thông tin giảng viên</h1>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Họ và tên:</h5>
+                        <p class="text-warning">@thongTinTaiKhoan.TenGv</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Học hàm:</h5>
+                        <p class="text-warning">@thongTinTaiKhoan.HocHam</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="text-center mb-4">
+                        <h1 class="display-4">Thông tin admin đẹp trai</h1>
+                    </div>
+                    <div class="mb-4">
+                        <h5>Họ và tên:</h5>
+                        <p class="text-warning">@thongTinTaiKhoan.TenGiaoVu</p>
+                    </div>
+                }
+
                 <div class="mb-4">
                     <h5>Giới tính:</h5>
-                    <p class="text-warning">@ViewBag.GioiTinh</p>
+                    <p class="text-warning">
+                        @if (@thongTinTaiKhoan.GioiTinh == 1)
+                    {
+                        @:Nam
+                    }
+                    else
+                    {
+                        @:Nữ
+                    }
+                </p>
                 </div>
                 <div class="mb-4">
                     <h5>Ngày sinh:</h5>
-                    <p class="text-warning">@ViewBag.NgaySinh</p>
-                </div>
-                <div class="mb-4">
-                    <h5>Địa chỉ:</h5>
-                    <p class="text-warning">@ViewBag.DiaChi</p>
-                </div>
-                <div class="mb-4">
-                    <h5>Khoa:</h5>
-                    <p class="text-warning">@ViewBag.Khoa</p>
-                </div>
-                <div class="mb-4">
-                    <h5>Lớp:</h5>
-                    <p class="text-warning">@ViewBag.Lop</p>
+                    <p class="text-warning">@thongTinTaiKhoan.NgaySinh</p>
                 </div>
             </div>
         </div>
@@ -45,7 +79,10 @@
                 </div>
                 <div class="mb-4 text-center">
                     <h5>Email tài khoản:</h5>
-                    <p class="text-warning">@ViewBag.Email</p>
+                    <p class="text-warning">@Context.Session.GetString("UserEmail")</p>
+                    <hr />
+                    <h5>Id tài khoản:</h5>
+                    <p class="text-warning">@Context.Session.GetString("Id")</p>
                 </div>
                 <form asp-controller="TaiKhoan" asp-action="DangXuat" method="post" class="text-center">
                     <button type="submit" class="btn btn-primary btn-lg">Đăng xuất</button>

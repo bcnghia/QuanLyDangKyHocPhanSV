@@ -15,7 +15,7 @@ namespace QuanLyDangKyHocPhanSV.Helpers
         public void SendEmail(string toEmail, string subject, string body)
         {
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("Admin", fromEmail));
+            message.From.Add(new MailboxAddress("BDU Admin", fromEmail));
             message.To.Add(new MailboxAddress("", toEmail));
             message.Subject = subject;
 

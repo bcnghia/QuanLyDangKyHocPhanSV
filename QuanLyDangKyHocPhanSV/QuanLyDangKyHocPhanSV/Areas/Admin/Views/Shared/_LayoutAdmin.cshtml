@@ -91,7 +91,7 @@
                 </div>
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    @Context.Request.Cookies["UserEmail"]
+                    @Context.Session.GetString("UserEmail")
                 </div>
             </nav>
         </div>

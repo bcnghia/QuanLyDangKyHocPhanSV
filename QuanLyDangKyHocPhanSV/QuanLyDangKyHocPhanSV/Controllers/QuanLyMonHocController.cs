@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using QuanLyDangKyHocPhanSV.Data;
 using QuanLyDangKyHocPhanSV.Models;
+using QuanLyDangKyHocPhanSV.Models.Authentication;
 
 namespace QuanLyDangKyHocPhanSV.Controllers
 {
@@ -15,9 +16,10 @@ namespace QuanLyDangKyHocPhanSV.Controllers
 
         [Route("MonHoc")]
         [HttpGet]
+        [Authentication]
         public IActionResult MonHoc()
         {
-            var lstDangKyMonHoc = db.DangKyMonHocs.Where(x => x.MaSv == Request.Cookies["Id"]).ToList();
+            var lstDangKyMonHoc = db.DangKyMonHocs.Where(x => x.MaSv == HttpContext.Session.GetString("Id")).ToList();
             ViewBag.DangKyMonHocs = lstDangKyMonHoc;
             ViewBag.MonHocs = db.MonHocs.ToList();
 

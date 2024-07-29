@@ -1,7 +1,7 @@
-﻿@{
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
     ViewData["Title"] = "Tài Khoản";
 }
-
 
 <div class="content text-center page-content">
     <section class="vh-100">
@@ -13,19 +13,19 @@
                              class="img-fluid" alt="Sample image">
                     </div>
                     <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                        <form asp-controller="TaiKhoan" asp-action="TaiKhoan" method="post">
+                        <form asp-controller="TaiKhoan" asp-action="DangNhap" method="post">
                             <!-- Email input -->
                             <div data-mdb-input-init class="form-outline mb-4">
-                                <input type="email" id="email" name="email" class="form-control form-control-lg"
-                                       placeholder="Enter a valid email address" />
-                                <label class="form-label" for="email">Email address</label>
+                                <input id="emailOrId" name="emailOrId" class="form-control form-control-lg"
+                                       placeholder="Enter a valid email or id student" required/>
+                                @* <label class="form-label" for="email">Email address</label> *@
                             </div>
 
                             <!-- Password input -->
                             <div data-mdb-input-init class="form-outline mb-3">
                                 <input type="password" id="password" name="password" class="form-control form-control-lg"
-                                       placeholder="Enter password" />
-                                <label class="form-label" for="password">Password</label>
+                                       placeholder="Enter password" required/>
+                                @* <label class="form-label" for="password">Password</label> *@
                             </div>
 
                             <div class="d-flex justify-content-between align-items-center">
@@ -39,12 +39,9 @@
                                 <a asp-controller="TaiKhoan" asp-action="QuenMatKhau" class="text-body">Quên mật khẩu?</a>
                             </div>
 
-                            @if (ViewBag.ErrorMessage != null)
-                            {
-                                <div class="alert alert-danger mt-3">
-                                    @ViewBag.ErrorMessage
-                                </div>
-                            }
+                            <p>
+                                @TempData["Message"]
+                            </p>
 
                             <div class="text-center text-lg-start mt-4 pt-2">
                                 <button type="submit" class="btn btn-primary btn-lg"

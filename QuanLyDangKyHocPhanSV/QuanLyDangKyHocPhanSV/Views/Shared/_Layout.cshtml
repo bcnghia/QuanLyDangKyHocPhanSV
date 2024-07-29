@@ -33,40 +33,26 @@
                         </li>
 
 
-                        @if (Context.Request.Cookies["IsLoggedIn"] == "true") // Hiển thị chức năng khi đăng nhập
+                        @if (Context.Session.GetString("IsLoggedIn") == "true") // Hiển thị chức năng khi đăng nhập
                         {
-                            <li class="nav-item">
-                                <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Môn học</a>
-                            </li>
-
-                            @if (Context.Request.Cookies["Role"] == "admin") // Hiển thị chức năng "Quản lý" nếu role là admin
+                            @if(Context.Session.GetString("Role") == "student")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="QuanLyMonHoc" asp-action="MonHoc">Môn học</a>
+                                </li>
+                            }
+                            else if (Context.Session.GetString("Role") == "admin") // Hiển thị chức năng "Quản lý" nếu role là admin
                             {
                                 <li class="nav-item">
                                     <a class="nav-link" asp-area="Admin" asp-controller="HomeAdmin" asp-action="Index">Quản lý</a>
                                 </li>
                             }
-
-                            @* Sau này sẽ xóa code này
-                                <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Quản lý Môn Học
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="ThemMonHoc">Thêm môn học</a></li>
-                                    <li><a class="dropdown-item" asp-controller="QuanLyMonHoc" asp-action="ListDangKyMonHoc">Danh sách sinh viên đăng ký môn</a></li>
-                                </ul>
-                            </li> 
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTaiKhoan" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Quản lý tài khoản
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownTaiKhoan">
-                                    <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="SinhVien">Sinh viên</a></li>
-                                    <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="GiangVien">Giảng viên</a></li>
-                                    <li><a class="dropdown-item" asp-controller="QuanLyTaiKhoan" asp-action="GiaoVu">Giáo vụ</a></li>
-                                </ul>
-                        </li>*@
+                            else
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">TeacherFunction</a>
+                                </li>
+                            }
                         }
 
                         
