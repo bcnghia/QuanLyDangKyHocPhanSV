@@ -12,6 +12,30 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\MSI'\.nuget\packages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)select.htmltopdf.netcore\24.1.0\contentFiles\any\any\Select.Html.dep" Condition="Exists('$(NuGetPackageRoot)select.htmltopdf.netcore\24.1.0\contentFiles\any\any\Select.Html.dep')">
+      <NuGetPackageId>Select.HtmlToPdf.NetCore</NuGetPackageId>
+      <NuGetPackageVersion>24.1.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Select.Html.dep</TargetPath>
+      <Private>True</Private>
+      <Link>Select.Html.dep</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)select.htmltopdf\24.1.0\contentFiles\any\any\Select.Html.dep" Condition="Exists('$(NuGetPackageRoot)select.htmltopdf\24.1.0\contentFiles\any\any\Select.Html.dep')">
+      <NuGetPackageId>Select.HtmlToPdf</NuGetPackageId>
+      <NuGetPackageVersion>24.1.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Select.Html.dep</TargetPath>
+      <Private>True</Private>
+      <Link>Select.Html.dep</Link>
+    </Content>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.7\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\8.0.7\buildTransitive\net8.0\Microsoft.EntityFrameworkCore.props')" />

@@ -66,14 +66,14 @@
 
     <div class="xulydangkymonhoc">
         <button type="submit" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>
-        <button type="button" class="btn btn-outline-warning">In Danh Sách Môn</button>
+        <button type="button" class="btn btn-outline-warning" id="printCourses">In Danh Sách Môn</button>
     </div>
 </form>
 
 @section Scripts {
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             // Thêm các môn học đã chọn vào bảng khi trang được tải
             $('.form-check-input:checked').each(function () {
                 var row = $(this).closest('tr');
@@ -93,7 +93,8 @@
                             </tr>
                         `);
             });
-            $('.form-check-input').change(function() {
+
+            $('.form-check-input').change(function () {
                 var row = $(this).closest('tr');
                 var maMh = row.find('.maMh').text();
                 var tenMh = row.find('.tenMh').text();
@@ -102,22 +103,45 @@
                 var thoiKhoaBieu = row.find('.thoiKhoaBieu').text();
 
                 if (this.checked) {
-                    // Add the selected course to the bottom table
+                    // Thêm môn học đã chọn vào bảng phía dưới
                     $('#selectedCoursesTable tbody').append(`
-                        <tr>
-                            <td>${maMh}</td>
-                            <td>${tenMh}</td>
-                            <td>${soTinChi}</td>
-                            <td>${soTiet}</td>
-                            <td>${thoiKhoaBieu}</td>
-                        </tr>
-                    `);
+                                <tr>
+                                    <td>${maMh}</td>
+                                    <td>${tenMh}</td>
+                                    <td>${soTinChi}</td>
+                                    <td>${soTiet}</td>
+                                    <td>${thoiKhoaBieu}</td>
+                                </tr>
+                            `);
                 } else {
-                    // Xóa môn học ở bảng dưới
-                    $('#selectedCoursesTable tbody tr').filter(function() {
+                    // Xóa môn học khỏi bảng phía dưới
+                    $('#selectedCoursesTable tbody tr').filter(function () {
                         return $(this).find('td:first').text() === maMh;
                     }).remove();
                 }
+            });
+
+            $('#printCourses').click(function () {
+                $.ajax({
+                    url: '/QuanLyMonHoc/ExportPdf',
+                    type: 'POST',
+                    data: {
+                        __RequestVerificationToken: $('[name=__RequestVerificationToken]').val()
+                    },
+                    xhrFields: {
+                        responseType: 'blob'
+                    },
+                    success: function (data) {
+                        var a = document.createElement('a');
+                        var url = window.URL.createObjectURL(data);
+                        a.href = url;
+                        a.download = 'DanhSachMonHoc_DangKy.pdf';
+                        document.body.append(a);
+                        a.click();
+                        a.remove();
+                        window.URL.revokeObjectURL(url);
+                    }
+                });
             });
         });
 
@@ -126,10 +150,11 @@
             var maMh = row.find('td:first').text();
             row.remove();
 
-            // Bỏ chọn Môn Học trong danh sách phía trên
-            $('.maMh').filter(function() {
+            // Bỏ chọn môn học trong danh sách phía trên
+            $('.maMh').filter(function () {
                 return $(this).text() === maMh;
             }).closest('tr').find('.form-check-input').prop('checked', false);
         }
     </script>
 }
+

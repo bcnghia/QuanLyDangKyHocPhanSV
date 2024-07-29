@@ -67,6 +67,14 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Select.HtmlToPdf": {
+              "target": "Package",
+              "version": "[24.1.0, )"
+            },
+            "Select.HtmlToPdf.NetCore": {
+              "target": "Package",
+              "version": "[24.1.0, )"
             }
           },
           "imports": [
