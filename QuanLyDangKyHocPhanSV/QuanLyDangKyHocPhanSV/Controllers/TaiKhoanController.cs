@@ -18,21 +18,33 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             {
                 return View("DangNhap");
             }
+            dynamic thongTinTaiKhoan;
+            string id = HttpContext.Session.GetString("Id");
+            if (HttpContext.Session.GetString("Role") == "student")
+            {
+                thongTinTaiKhoan = db.SinhViens.SingleOrDefault(sv => sv.MaSv == id);
+            }
+            else if (HttpContext.Session.GetString("Role") == "teacher")
+            {
+                thongTinTaiKhoan = db.GiangViens.SingleOrDefault(gv=>gv.MaGv == id);
+            }
+            else
+            {
+                thongTinTaiKhoan = db.GiaoVus.SingleOrDefault(giaoVu=>giaoVu.MaGiaoVu == id);
+            }
 
-            var email = HttpContext.Session.GetString("UserEmail");
-            var role = HttpContext.Session.GetString("Role");
-            ViewBag.Email = email;
-
+            ViewBag.ThongTinTaiKhoan = thongTinTaiKhoan;
             return View();
         }
 
         [HttpPost]
-        public IActionResult DangNhap(string id, string password)
+        public IActionResult DangNhap(string emailOrId, string password)
         {
 
             if (HttpContext.Session.GetString("Id") == null)
             {
-                var user = db.VThongTinDangNhaps.SingleOrDefault(u => u.Id == id && u.MatKhau == password);
+                var user = db.VThongTinDangNhaps.SingleOrDefault(u =>
+                ( u.EmailNguoiDung == emailOrId || u.Id == emailOrId) && u.MatKhau == password);
                 if (user != null)
                 {
                     HttpContext.Session.SetString("UserEmail", user.EmailNguoiDung.ToString());
@@ -44,6 +56,12 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             }
             TempData["Message"] = "Mã sinh viên hoặc mật khẩu không chính xác!";
             return View();
+        }
+
+        public IActionResult DangXuat()
+        {
+            HttpContext.Session.Clear();
+            return View("DangNhap");
         }
 
         // Tạo View cho Quên mật khẩu và chức năng của nó ở đây
@@ -66,24 +84,30 @@ namespace QuanLyDangKyHocPhanSV.Controllers
                 ViewBag.ErrorMessage = "Email không hợp lệ";
                 return View();
             }
-
             // Tạo mã reset password 
             string resetCode = Guid.NewGuid().ToString();
-
-            // Gửi email
-            try
+            HttpContext.Session.SetString("UserEmail", email);
+            var checkAccount = db.VThongTinDangNhaps.SingleOrDefault(check => check.EmailNguoiDung == HttpContext.Session.GetString("UserEmail"));
+            if (checkAccount != null)
             {
-                EmailHelper emailHelper = new EmailHelper();
-                string resetUrl = Url.Action("ResetPassword", "TaiKhoan", new { code = resetCode }, protocol: Request.Scheme);
-                emailHelper.SendEmail(email, "Reset Password", $"Click vào <a href='{resetUrl}'>đây</a> để reset password.");
 
-                ViewBag.SuccessMessage = "Gửi mail thành công";
-            }
-            catch (Exception ex)
-            {
-                ViewBag.ErrorMessage = "Có lỗi xảy ra: " + ex.Message;
+                // Gửi email
+                try
+                {
+                    EmailHelper emailHelper = new EmailHelper();
+                    string resetUrl = Url.Action("ResetPassword", "TaiKhoan", new { code = resetCode }, protocol: Request.Scheme);
+                    emailHelper.SendEmail(email, "Reset Password", $"Click vào <a href='{resetUrl}'>đây</a> để reset password.");
+
+                    TempData["Message"] = "Gửi mail thành công";
+                }
+                catch (Exception ex)
+                {
+                    TempData["Message"] = "Có lỗi xảy ra: " + ex.Message;
+                }
+                return View();
             }
 
+            TempData["Message"] = "Không tìm thấy tài khoản";
             return View();
         }
 
@@ -111,6 +135,30 @@ namespace QuanLyDangKyHocPhanSV.Controllers
                 ViewBag.ErrorMessage = "Mã reset password không hợp lệ hoặc đã hết hạn.";
                 return View();
             }
+            var account = db.VThongTinDangNhaps.SingleOrDefault(check => check.EmailNguoiDung == HttpContext.Session.GetString("UserEmail"));
+            if (account!=null)
+            {
+                switch (account.RoleAccount)
+                {
+                    case ("student"):
+                        var sinhVien = db.SinhViens.SingleOrDefault(sv => sv.MaSv == account.Id);
+                        sinhVien.MatKhau = newPassword;
+                        db.Update(sinhVien);
+                        break;
+                    case ("teacher"):
+                        var giangVien = db.GiangViens.SingleOrDefault(gv => gv.MaGv == account.Id);
+                        giangVien.MatKhau = newPassword;
+                        db.Update(giangVien);
+                        break;
+                    default:
+                        var giaoVu = db.GiaoVus.SingleOrDefault(giaoVu => giaoVu.MaGiaoVu == account.Id);
+                        giaoVu.MatKhau = newPassword;
+                        db.Update(giaoVu);
+                        break;
+                }
+            }
+            db.SaveChanges();
+            
             ViewBag.SuccessMessage = "Đặt lại mật khẩu thành công.";
             return View();
         }
@@ -119,15 +167,6 @@ namespace QuanLyDangKyHocPhanSV.Controllers
         {
             // Logic kiểm tra mã reset password (giả định)
             return true;
-        }
-
-        public IActionResult DangXuat()
-        {
-            // Xóa cookies đăng nhập
-            HttpContext.Session.Clear();
-
-            // Điều hướng về trang đăng nhập
-            return View("DangNhap");
         }
     }
 }
