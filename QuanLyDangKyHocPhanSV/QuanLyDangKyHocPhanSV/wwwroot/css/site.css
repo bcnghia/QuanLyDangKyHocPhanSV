@@ -481,12 +481,3 @@ body {
         font-size: 8px;
     }
 }*/
-
-#mess {
-    color: black;
-    padding: 5px;
-    font-weight: bold;
-    background-color: #d1e7dd;
-    border-color: #badbcc;
-    letter-spacing: 2px;
-}

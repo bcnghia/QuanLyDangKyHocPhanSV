@@ -7,9 +7,8 @@
 }
 <div class="text-center">
     <h1> ĐĂNG KÝ MÔN HỌC</h1>
-    <p id="mess">@TempData["Message"]</p>
+    <p class="page-content">@TempData["Message"]</p>
 </div>
-
 <form id="courseForm" asp-controller="QuanLyMonHoc" asp-action="ListDangKyMonHoc" method="post">
     @Html.AntiForgeryToken()
     <table class="table table-bordered page-content">
@@ -126,7 +125,7 @@
             var maMh = row.find('td:first').text();
             row.remove();
 
-            // Bỏ chọn Môn Học trong danh sách phía trên
+            // Bỏ chọnTrang Thời Khóa Biểu, Dowload Page, Hiển thị số người đăng nhập, Thêm chức năng đăng ký môn, Sửa Giao diện Admin, [quên tên]ư
             $('.maMh').filter(function() {
                 return $(this).text() === maMh;
             }).closest('tr').find('.form-check-input').prop('checked', false);
