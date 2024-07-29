@@ -1,8 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using QuanLyDangKyHocPhanSV.Data;
-using QuanLyDangKyHocPhanSV.Models;
-using QuanLyDangKyHocPhanSV.Models.Authentication;
-using Microsoft.AspNetCore.Html;
+﻿using Microsoft.AspNetCore.Html;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Abstractions;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -10,10 +7,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Org.BouncyCastle.Crypto.Engines;
+using QuanLyDangKyHocPhanSV.Data;
+using QuanLyDangKyHocPhanSV.Models;
 using SelectPdf;
 
 namespace QuanLyDangKyHocPhanSV.Controllers
 {
+
     public class QuanLyMonHocController : Controller
     {
         QLDKHocPhanContext db = new QLDKHocPhanContext();
@@ -31,10 +31,9 @@ namespace QuanLyDangKyHocPhanSV.Controllers
 
         [Route("MonHoc")]
         [HttpGet]
-        [Authentication]
         public IActionResult MonHoc()
         {
-            var lstDangKyMonHoc = db.DangKyMonHocs.Where(x => x.MaSv == HttpContext.Session.GetString("Id")).ToList();
+            var lstDangKyMonHoc = db.DangKyMonHocs.Where(x => x.MaSv == Request.Cookies["Id"]).ToList();
             ViewBag.DangKyMonHocs = lstDangKyMonHoc;
             ViewBag.MonHocs = db.MonHocs.ToList();
 
@@ -92,6 +91,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
 
             return File(pdfBytes, "application/pdf", "DanhSachMonHoc_DangKy.pdf");
         }
+
 
         private string RenderViewToString(string viewName, object model)
         {
