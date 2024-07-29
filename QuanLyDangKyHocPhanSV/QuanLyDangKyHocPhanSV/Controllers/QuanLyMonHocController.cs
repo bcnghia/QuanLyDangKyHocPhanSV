@@ -9,11 +9,13 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Org.BouncyCastle.Crypto.Engines;
 using QuanLyDangKyHocPhanSV.Data;
 using QuanLyDangKyHocPhanSV.Models;
+using QuanLyDangKyHocPhanSV.Models.Authentication;
 using SelectPdf;
 
 namespace QuanLyDangKyHocPhanSV.Controllers
 {
-
+    [Authentication]
+    [AuthorizeRole("student")]
     public class QuanLyMonHocController : Controller
     {
         QLDKHocPhanContext db = new QLDKHocPhanContext();

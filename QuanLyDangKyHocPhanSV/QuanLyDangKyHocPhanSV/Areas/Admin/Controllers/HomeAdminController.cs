@@ -8,6 +8,7 @@ namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
 {
     [Area("admin")]
     [Authentication]
+    [AuthorizeRole("admin")]
     [Route("admin")]
     [Route("admin/homeadmin")]
     public class HomeAdminController : Controller
