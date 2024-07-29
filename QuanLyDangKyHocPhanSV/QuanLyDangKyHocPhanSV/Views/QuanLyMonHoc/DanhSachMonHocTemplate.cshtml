@@ -1,0 +1,50 @@
+﻿@model List<QuanLyDangKyHocPhanSV.Models.MonHoc>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Danh Sách Môn Học</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Danh Sách Môn Học</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Id Môn Học</th>
+                <th>Tên Môn Học</th>
+                <th>Số Tín Chỉ</th>
+                <th>Số Tiết</th>
+                <th>Thời Khóa Biểu</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var monHoc in Model)
+            {
+                <tr>
+                    <td>@monHoc.MaMh</td>
+                    <td>@monHoc.TenMh</td>
+                    <td>@monHoc.SoTinChi</td>
+                    <td>@monHoc.SoTiet</td>
+                    <td>@monHoc.ThoiKhoaBieu</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

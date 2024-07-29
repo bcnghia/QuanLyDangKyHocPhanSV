@@ -12,7 +12,9 @@
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3",
+          "Select.HtmlToPdf": "24.1.0",
+          "Select.HtmlToPdf.NetCore": "24.1.0"
         },
         "runtime": {
           "QuanLyDangKyHocPhanSV.dll": {}
@@ -1632,6 +1634,26 @@
           }
         }
       },
+      "Select.HtmlToPdf/24.1.0": {},
+      "Select.HtmlToPdf.NetCore/24.1.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "7.0.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Buffers": "4.5.1",
+          "System.Drawing.Common": "7.0.0",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Security.Principal.Windows": "5.0.0",
+          "System.Text.Encoding.CodePages": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Select.HtmlToPdf.dll": {
+            "assemblyVersion": "24.1.0.0",
+            "fileVersion": "24.1.0.0"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
       "System.CodeDom/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -2782,6 +2804,27 @@
       "sha512": "sha512-ypnSvEtpNGo48bAWn95J1oHChycCXcevFSbn53fqzLxlXFSZP7dawu8p/7mHAfGufZQSV2sBpW80XQGIfXO8kQ==",
       "path": "nuget.versioning/6.9.1",
       "hashPath": "nuget.versioning.6.9.1.nupkg.sha512"
+    },
+    "Select.HtmlToPdf/24.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lqmAva90oeN26F+/K5RxNaHFA3TS5ANaQZUhdNa/GIJ6Q6ZTb8ISZuTSS5DpEVP+0pmxutSEXVW2ysvmgdGIBg==",
+      "path": "select.htmltopdf/24.1.0",
+      "hashPath": "select.htmltopdf.24.1.0.nupkg.sha512"
+    },
+    "Select.HtmlToPdf.NetCore/24.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ElMGK1nthxUbzc+kSI1sEXKftk9QKYEaMfRQaVuBV4TEtegEFv4yril2Y4Dho55RFzQPX9nkCEkZwGM4x8tTHA==",
+      "path": "select.htmltopdf.netcore/24.1.0",
+      "hashPath": "select.htmltopdf.netcore.24.1.0.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
     "System.CodeDom/5.0.0": {
       "type": "package",

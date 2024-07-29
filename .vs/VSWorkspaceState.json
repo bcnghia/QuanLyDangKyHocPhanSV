@@ -3,6 +3,7 @@
     "",
     "\\QuanLyDangKyHocPhanSV",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV",
+    "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Controllers",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Data",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Models",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views",
@@ -10,6 +11,6 @@
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot",
     "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\wwwroot\\css"
   ],
-  "SelectedNode": "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Views\\QuanLyMonHoc\\MonHoc.cshtml",
+  "SelectedNode": "\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\Controllers\\TaiKhoanController.cs",
   "PreviewInSolutionExplorer": false
 }
