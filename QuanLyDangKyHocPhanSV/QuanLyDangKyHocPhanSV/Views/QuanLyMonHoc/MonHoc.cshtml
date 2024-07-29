@@ -62,7 +62,7 @@
         </tbody>
     </table>
 
-    <input type="hidden" name="maSV" value="@Context.Request.Cookies["Id"]">
+    <input type="hidden" name="maSV" value="@Context.Session.GetString("Id")">
 
     <div class="xulydangkymonhoc">
         <button type="submit" class="btn btn-outline-danger">Lưu Đăng ký Môn học</button>

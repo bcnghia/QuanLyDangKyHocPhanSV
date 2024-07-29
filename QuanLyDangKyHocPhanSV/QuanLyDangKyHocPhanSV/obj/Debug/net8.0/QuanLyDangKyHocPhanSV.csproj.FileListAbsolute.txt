@@ -688,3 +688,5 @@ D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV
 D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\System.Formats.Asn1.dll
 D:\Github\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\Select.Html.dep
 D:\Github\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\Select.HtmlToPdf.dll
+D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\Select.Html.dep
+D:\DEV_Project\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\QuanLyDangKyHocPhanSV\bin\Debug\net8.0\Select.HtmlToPdf.dll

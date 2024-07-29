@@ -33,7 +33,7 @@ namespace QuanLyDangKyHocPhanSV.Controllers
         [HttpGet]
         public IActionResult MonHoc()
         {
-            var lstDangKyMonHoc = db.DangKyMonHocs.Where(x => x.MaSv == Request.Cookies["Id"]).ToList();
+            var lstDangKyMonHoc = db.DangKyMonHocs.Where(x => x.MaSv == HttpContext.Session.GetString("Id")).ToList();
             ViewBag.DangKyMonHocs = lstDangKyMonHoc;
             ViewBag.MonHocs = db.MonHocs.ToList();
 
