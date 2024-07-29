@@ -481,3 +481,35 @@ body {
         font-size: 8px;
     }
 }*/
+
+#mess {
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    letter-spacing: 2px;
+}
+
+.TOP {
+    position: fixed; /* Cố định nó trong trang (luôn hiển thị mặc định )*/
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(to right, #dc0914, #b00914);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    bottom: 50px;
+    right: 50px;
+    color: ghostwhite;
+    text-decoration: none;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 10px;
+    font-size: 40px;
+    border: 3px solid #24262b;
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+    .TOP:hover {
+        transform: scale(1.1);
+    } 
