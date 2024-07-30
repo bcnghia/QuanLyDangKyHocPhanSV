@@ -73,9 +73,15 @@ namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.GiangViens.Add(giangVien);
-                db.SaveChanges();
-
+                var check = db.GiangViens.SingleOrDefault(x => x.MaGv==giangVien.MaGv);
+                if (check == null)
+                {
+                    db.GiangViens.Add(giangVien);
+                    db.SaveChanges();
+                    TempData["Message"] = "Thêm giảng viên thành công";
+                    return RedirectToAction("GiangVien");
+                }
+                TempData["Message"] = "Thêm giảng viên không thành công do trùng mã giảng viên.";
                 return RedirectToAction("GiangVien");
             }
 
@@ -95,9 +101,15 @@ namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.SinhViens.Add(sinhVien);
-                db.SaveChanges();
-
+                var check = db.SinhViens.SingleOrDefault(x => x.MaSv == sinhVien.MaSv);
+                if (check == null)
+                {
+                    db.SinhViens.Add(sinhVien);
+                    db.SaveChanges();
+                    TempData["Message"] = "Thêm sinh viên thành công";
+                    return RedirectToAction("SinhVien");
+                }
+                TempData["Message"] = "Thêm sinh viên không thành công do trùng mã sinh viên.";
                 return RedirectToAction("SinhVien");
             }
 
@@ -117,9 +129,15 @@ namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.GiaoVus.Add(giaoVu);
-                db.SaveChanges();
-
+                var check = db.GiaoVus.SingleOrDefault(x => x.MaGiaoVu == giaoVu.MaGiaoVu);
+                if (check == null)
+                {
+                    db.GiaoVus.Add(giaoVu);
+                    db.SaveChanges();
+                    TempData["Message"] = "Thêm giáo vụ thành công";
+                    return RedirectToAction("GiaoVu");
+                }
+                TempData["Message"] = "Thêm giáo vụ không thành công do trùng mã giáo vụ.";
                 return RedirectToAction("GiaoVu");
             }
 
@@ -139,9 +157,15 @@ namespace QuanLyDangKyHocPhanSV.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.MonHocs.Add(monHoc);
-                db.SaveChanges();
-
+                var check = db.MonHocs.SingleOrDefault(x => x.MaMh == monHoc.MaMh);
+                if (check == null)
+                {
+                    db.MonHocs.Add(monHoc);
+                    db.SaveChanges();
+                    TempData["Message"] = "Thêm môn học thành công";
+                    return RedirectToAction("DanhSachMonHoc");
+                }
+                TempData["Message"] = "Thêm môn học không thành công do trùng mã môn học.";
                 return RedirectToAction("DanhSachMonHoc");
             }
 
