@@ -23,6 +23,11 @@ namespace QuanLyDangKyHocPhanSV.Controllers
             return View();
         }
 
+        public IActionResult Lop()
+        {
+            return View();
+        }
+
         public IActionResult Download()
         {
             return View();

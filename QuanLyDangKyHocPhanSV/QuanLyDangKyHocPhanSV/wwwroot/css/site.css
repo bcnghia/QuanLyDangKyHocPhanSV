@@ -482,6 +482,9 @@ body {
     }
 }*/
 
+
+/* Linh Tinh */
+
 #mess {
     color: black;
     padding: 5px;
@@ -495,7 +498,7 @@ body {
     position: fixed; /* Cố định nó trong trang (luôn hiển thị mặc định )*/
     width: 70px;
     height: 70px;
-    background: linear-gradient(to right, #dc0914, #b00914);
+    background: linear-gradient(to top, #1da1f5, #8039da);
     box-shadow: 0 5px 10px rgba(0,0,0,0.25);
     bottom: 50px;
     right: 50px;
@@ -507,9 +510,29 @@ body {
     font-size: 40px;
     border: 3px solid #24262b;
     transition: transform 0.3s ease;
-    z-index: 2;
+    z-index: 99;
 }
 
-    .TOP:hover {
-        transform: scale(1.1);
-    } 
+.TOP:hover {
+    transform: scale(1.1);
+}
+
+.accordion-button:not(.collapsed),
+.accordion-button:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.accordion-button::after {
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background-color: var(--bs-danger);
+    background-image: none !important;
+}
+
+.accordion-button.collapsed::after {
+    background-color: var(--bs-gray-300);
+}
