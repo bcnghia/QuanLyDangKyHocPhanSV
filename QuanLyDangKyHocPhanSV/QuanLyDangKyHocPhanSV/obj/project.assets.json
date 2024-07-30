@@ -2079,17 +2079,6 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
-      "Select.HtmlToPdf/24.1.0": {
-        "type": "package",
-        "contentFiles": {
-          "contentFiles/any/any/Select.Html.dep": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": true,
-            "outputPath": "Select.Html.dep"
-          }
-        }
-      },
       "Select.HtmlToPdf.NetCore/24.1.0": {
         "type": "package",
         "dependencies": {
@@ -6660,26 +6649,6 @@
         "nuget.versioning.nuspec"
       ]
     },
-    "Select.HtmlToPdf/24.1.0": {
-      "sha512": "lqmAva90oeN26F+/K5RxNaHFA3TS5ANaQZUhdNa/GIJ6Q6ZTb8ISZuTSS5DpEVP+0pmxutSEXVW2ysvmgdGIBg==",
-      "type": "package",
-      "path": "select.htmltopdf/24.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "contentFiles/any/any/Select.Html.dep",
-        "images/icon.png",
-        "lib/net20/Select.Html.dep",
-        "lib/net20/Select.HtmlToPdf.dll",
-        "lib/net20/Select.HtmlToPdf.xml",
-        "lib/net40/Select.Html.dep",
-        "lib/net40/Select.HtmlToPdf.dll",
-        "lib/net40/Select.HtmlToPdf.xml",
-        "readme.txt",
-        "select.htmltopdf.24.1.0.nupkg.sha512",
-        "select.htmltopdf.nuspec"
-      ]
-    },
     "Select.HtmlToPdf.NetCore/24.1.0": {
       "sha512": "ElMGK1nthxUbzc+kSI1sEXKftk9QKYEaMfRQaVuBV4TEtegEFv4yril2Y4Dho55RFzQPX9nkCEkZwGM4x8tTHA==",
       "type": "package",
@@ -8130,24 +8099,28 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.7",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.3",
-      "Select.HtmlToPdf >= 24.1.0",
       "Select.HtmlToPdf.NetCore >= 24.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MSI'\\.nuget\\packages\\": {}
+    "C:\\Users\\DFox\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+      "projectUniqueName": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
       "projectName": "QuanLyDangKyHocPhanSV",
-      "projectPath": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
-      "packagesPath": "C:\\Users\\MSI'\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\",
+      "projectPath": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV.csproj",
+      "packagesPath": "C:\\Users\\DFox\\.nuget\\packages\\",
+      "outputPath": "D:\\DEV_Project\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\QuanLyDangKyHocPhanSV\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\MSI'\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DFox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8155,7 +8128,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8201,10 +8173,6 @@
             "target": "Package",
             "version": "[8.0.3, )"
           },
-          "Select.HtmlToPdf": {
-            "target": "Package",
-            "version": "[24.1.0, )"
-          },
           "Select.HtmlToPdf.NetCore": {
             "target": "Package",
             "version": "[24.1.0, )"
@@ -8229,7 +8197,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
